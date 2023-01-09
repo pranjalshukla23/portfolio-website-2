@@ -16,9 +16,9 @@ export const Experience = () => {
             <h2 className="font-medium text-white text-xl">
               Associate Software Engineer @ Betaflux Consulting
             </h2>
-            <h2 className="font-medium text-white text-xl">
+            <span className="font-medium text-white text-xl w-1/2">
               Jan &apos;22 - present
-            </h2>
+            </span>
 
             <svg
               className=" h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
@@ -28,9 +28,9 @@ export const Experience = () => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M19 9l-7 7-7-7"
               />
             </svg>
@@ -78,9 +78,9 @@ export const Experience = () => {
             <h2 className="font-medium text-white text-xl">
               Software Engineering intern @ Diebold Nixdorf
             </h2>
-            <h2 className="font-medium text-white text-xl">
+            <span className="font-medium text-white text-xl w-1/2">
               May &apos; 21 - Aug &apos; 21
-            </h2>
+            </span>
 
             <svg
               className=" h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
@@ -90,9 +90,9 @@ export const Experience = () => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M19 9l-7 7-7-7"
               />
             </svg>
