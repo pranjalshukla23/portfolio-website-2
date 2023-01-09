@@ -2,12 +2,12 @@ export const Experience = () => {
   return (
     <div
       id="experience"
-      className="hidden md:flex flex-col justify-center items-center text-center text-white gap-4 my-24"
+      className="md:flex flex-col justify-center items-center text-center text-white gap-4 my-24"
     >
       <h1 className="font-Anton font-extrabold text-3xl md:text-5xl text-white tracking-widest uppercase mb-8">
         Professional Experience
       </h1>
-      <div className="space-y-4 w-1/2">
+      <div className="space-y-4 w-full md:w-1/2">
         <details
           className="group [&_summary::-webkit-details-marker]:hidden"
           open
