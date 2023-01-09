@@ -22,7 +22,7 @@ export default function Home({ projects }) {
 }
 
 export async function getStaticProps(context) {
-  console.log("projects", projects);
+  //console.log("projects", projects);
   return {
     props: {
       projects,

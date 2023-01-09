@@ -1,9 +1,9 @@
 export const Header = () => {
   const handleClickScroll = (id) => {
-    console.log("clicked");
+    //console.log("clicked");
     const element = document.getElementById(id);
     if (element) {
-      console.log(element);
+      // console.log(element);
       // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: "smooth" });
     }
