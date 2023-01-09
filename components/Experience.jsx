@@ -16,7 +16,9 @@ export const Experience = () => {
             <h2 className="font-medium text-white text-xl">
               Associate Software Engineer @ Betaflux Consulting
             </h2>
-            <h2 className="font-medium text-white text-xl">2022 - present</h2>
+            <h2 className="font-medium text-white text-xl">
+              Jan &apos;22 - present
+            </h2>
 
             <svg
               className=" h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
