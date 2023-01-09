@@ -9,7 +9,7 @@ export const Header = () => {
     }
   };
   return (
-    <header className="flex flex-col md:flex-row justify-start items-center gap-x-48 bg-gray-900 p-4">
+    <header className="flex flex-col md:flex-row justify-start items-center gap-x-48 bg-gray-900 p-4 sticky top-0 z-40">
       <h1 className="font-RobotoCondensed text-4xl text-blue-300">
         PranjalShukla.<span className="text-violet-600">_</span>
       </h1>

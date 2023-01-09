@@ -21,7 +21,7 @@ export const Work = ({ projects }) => {
               href={project.github ? project.github : project.link}
               key={project.id}
             >
-              <div className="project flex flex-col justify-evenly items-center bg-slate-900 p-4 rounded-md border-2 border-gray-50  hover:scale-125 hover:cursor-pointer shadow-lg shadow-slate-600 h-72 md:h-64">
+              <div className="project flex flex-col justify-evenly items-center bg-slate-900 rounded-md border-2 border-gray-50  hover:scale-125 hover:cursor-pointer shadow-lg shadow-slate-600 h-80 md:h-64 ">
                 <h1 className="font-RobotoCondensed font-bold text-md md:text-xl tracking-widest uppercase mb-4">
                   {project.title}
                   {project.github ? (
