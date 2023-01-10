@@ -13,11 +13,11 @@ export const Experience = () => {
           open
         >
           <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8">
-            <h2 className="font-medium text-white text-xl">
+            <div className="font-medium text-white text-start text-md w-1/2">
               Associate Software Engineer @ Betaflux Consulting
-            </h2>
-            <span className="font-medium text-white text-xl w-1/2">
-              Jan &apos;22 - present
+            </div>
+            <span className="font-medium text-white text-md w-1/2">
+              Jan &apos;23 - present
             </span>
 
             <svg
@@ -36,14 +36,14 @@ export const Experience = () => {
             </svg>
           </summary>
 
-          <ul className="list-disc list-inside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41]">
+          <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41]">
             <li>
               Development of 10+ web applications by using responsive UI
               elements via React concepts for smooth performance
             </li>
             <li>
               Constructed 7+ user interface codes of web applications with
-              frameworks React.Js, Next.Js, and Javascript based on approved
+              frameworks ReactJS, NextJS, and JavaScript based on approved
               design
             </li>
             <li>
@@ -60,7 +60,7 @@ export const Experience = () => {
             </li>
             <li>
               Composed backend for websites and constructed RESTful APIs with
-              Node.js and Express.Js
+              NodeJS and ExpressJS
             </li>
             <li>
               Utilized relational databases and NoSQL databases to streamline
@@ -75,10 +75,56 @@ export const Experience = () => {
 
         <details className="group [&_summary::-webkit-details-marker]:hidden">
           <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8">
-            <h2 className="font-medium text-white text-xl">
+            <div className="font-medium text-white text-start text-md w-1/2">
+              Full Stack Developer @ Web3Werx
+            </div>
+            <span className="font-medium text-white text-md w-1/2">
+              Sep &apos; 21 - Dec &apos; 22
+            </span>
+
+            <svg
+              className=" h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </summary>
+
+          <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41]">
+            <li>
+              Coding smart contracts for Ethereum blockchain using solidity
+              programming language
+            </li>
+            <li>
+              Developing decentralized applications on Ethereum and Hyperledger
+              Fabric blockchain
+            </li>
+            <li>
+              Constructing test cases using mocha and chai framework for unit
+              testing of decentralized applications
+            </li>
+            <li>
+              Designing and developing web-based applications using front-end
+              frameworks React JS and Ether.js library for interacting with the
+              Ethereum blockchain
+            </li>
+          </ul>
+        </details>
+
+        <details className="group [&_summary::-webkit-details-marker]:hidden">
+          <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8">
+            <div className="font-medium text-white text-start text-md w-1/2">
               Software Engineering intern @ Diebold Nixdorf
-            </h2>
-            <span className="font-medium text-white text-xl w-1/2">
+            </div>
+            <span className="font-medium text-white text-md w-1/2">
               May &apos; 21 - Aug &apos; 21
             </span>
 
@@ -98,7 +144,7 @@ export const Experience = () => {
             </svg>
           </summary>
 
-          <ul className="list-disc list-inside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41]">
+          <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41]">
             <li>
               Development of a 360-degree customer recommendation engine using
               cypher query language and graph database system Neo4j

@@ -16,7 +16,7 @@ export const Contact = () => {
       </p>
       <button className="border-2 px-6 py-4 hover:bg-gray-800 ">
         <a
-          className="text-2xl text-green-600"
+          className="text-2xl text-slate-400"
           href="mailto: pranjalshukla23@gmail.com"
         >
           Say Hello
