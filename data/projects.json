@@ -1,7 +1,7 @@
 [{
   "id": 1,
   "title": "Multisender Aptos",
-  "link": "https://web3werx.vercel.app/",
+  "link": "https://multisender3.vercel.app/",
   "tools": "Next.js,Tailwind CSS,web3.js",
   "description": "A decentralized application to send NFT and coins to other addresses on solana blockchain"
 },{
@@ -63,7 +63,7 @@
   {
     "id": 10,
     "title": "Hunting Coder",
-    "link": "https://hunting-coder-liard.vercel.app/blogpost/how-to-learn-javascript/",
+    "link": "https://hunting-coder-liard.vercel.app/",
     "tools": "Next.js",
     "description": "A web app to get all the blogs related to coding"
   },
