@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 body {
-	background-color: #0c0d18;
+	background-color: #000;
 }
 
 .project:hover h1 {

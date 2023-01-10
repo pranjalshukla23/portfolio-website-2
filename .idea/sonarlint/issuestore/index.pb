@@ -13,8 +13,6 @@ B
 pages/_document.js,d\1\d1cd1638ed0f36c4f90ee49276b0ae25263a6f85
 <
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
-E
-components/Header.jsx,9\8\98f1fd90eab7570d1e999295ef107e643c2b7662
 >
 pages/index.js,1\7\17f8c719689e4f3221289153187a6ca1fb24dd87
 H
