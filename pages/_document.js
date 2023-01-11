@@ -13,6 +13,7 @@ export default function Document() {
           content="Pranjal Shukla, Associate Software Engineer, Betaflux, web3Werx, Diebold Nixdorf, Portfolio, Front end developer, app developer"
         />
         <meta
+          name="image"
           property="og:image"
           content="https://drive.google.com/file/d/1kccYTVOjG61u8PNdqmHRWcjzxzGpzirA/view?usp=sharing"
         />

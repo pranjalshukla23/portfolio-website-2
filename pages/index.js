@@ -21,10 +21,6 @@ export default function Home({ projects }) {
     <div>
       <Head>
         <title>Pranjal Shukla - Software Engineer</title>
-        <meta
-          property="og:image"
-          content="https://drive.google.com/file/d/1kccYTVOjG61u8PNdqmHRWcjzxzGpzirA/view?usp=sharing"
-        />
       </Head>
 
       <Intro loading={loading} setLoading={setLoading} />
