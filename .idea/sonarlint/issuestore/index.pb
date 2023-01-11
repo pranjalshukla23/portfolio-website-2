@@ -15,3 +15,11 @@ E
 components/Header.jsx,9\8\98f1fd90eab7570d1e999295ef107e643c2b7662
 <
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+I
+components/Experience.jsx,0\c\0cce2be0848c0445139e182ff3ffa60bfc6b4769
+=
+pages/_app.js,2\0\202812cedbed29fdf712361f0e7a919932f9e751
+D
+components/Intro.jsx,e\1\e187ed4477a48f4ef03cd9b79dcf49a6dcb7164a
+B
+data/projects.json,c\6\c6b28cf019aa60230dca2a272d8d396a7745dc97

@@ -12,10 +12,15 @@ export default function Document() {
           name="keywords"
           content="Pranjal Shukla, Associate Software Engineer, Betaflux, web3Werx, Diebold Nixdorf, Portfolio, Front end developer, app developer"
         />
+        {/*<meta*/}
+        {/*  name="image"*/}
+        {/*  property="og:image"*/}
+        {/*  content="https://iili.io/HYfRoWx.png"*/}
+        {/*/>*/}
         <meta
           name="image"
           property="og:image"
-          content="https://iili.io/HYfRoWx.png"
+          content="https://iili.io/HYfLYyx.jpg"
         />
 
         <link rel="shortcut icon" href="/favicon.png" />
