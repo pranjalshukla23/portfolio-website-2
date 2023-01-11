@@ -25,7 +25,7 @@ export const Header = () => {
         <li>
           <button onClick={() => handleClickScroll("work")}>Work</button>
         </li>
-        <li className="hidden md:block">
+        <li>
           <button onClick={() => handleClickScroll("experience")}>
             Experience
           </button>
