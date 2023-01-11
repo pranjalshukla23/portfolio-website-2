@@ -28,7 +28,7 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+          content="https://drive.google.com/file/d/1RMnE5AM23W7nzkrOiAOQd-JxWGBDdFO9/view?usp=sharing"
         />
 
         {/*Twitter*/}
@@ -44,7 +44,7 @@ export default function Document() {
         />
         <meta
           property="twitter:image"
-          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+          content="https://drive.google.com/file/d/1RMnE5AM23W7nzkrOiAOQd-JxWGBDdFO9/view?usp=sharing"
         />
 
         <link rel="shortcut icon" href="/favicon.png" />
