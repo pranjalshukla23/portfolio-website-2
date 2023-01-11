@@ -2,7 +2,7 @@ export const Experience = () => {
   return (
     <div
       id="experience"
-      className="md:flex flex-col justify-center items-center text-center text-white gap-4 my-24"
+      className="flex flex-col justify-center items-center text-center text-white gap-4 my-24"
     >
       <h1 className="font-Anton font-extrabold text-3xl md:text-5xl text-white tracking-widest uppercase mb-8">
         Professional Experience
@@ -36,7 +36,7 @@ export const Experience = () => {
             </svg>
           </summary>
 
-          <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41]">
+          <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41] mx-2">
             <li>
               Development of 10+ web applications by using responsive UI
               elements via React concepts for smooth performance
@@ -98,7 +98,7 @@ export const Experience = () => {
             </svg>
           </summary>
 
-          <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41]">
+          <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41] mx-2">
             <li>
               Coding smart contracts for Ethereum blockchain using solidity
               programming language
@@ -144,7 +144,7 @@ export const Experience = () => {
             </svg>
           </summary>
 
-          <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41]">
+          <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41] mx-2">
             <li>
               Development of a 360-degree customer recommendation engine using
               cypher query language and graph database system Neo4j
