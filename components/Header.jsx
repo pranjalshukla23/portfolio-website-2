@@ -23,8 +23,8 @@ export const Header = () => {
           <li>
             <a
               href="#"
-              className={`hover:text-green-400 ${
-                activeLink === "home" ? "text-green-400" : ""
+              className={`hover:text-slate-300 ${
+                activeLink === "home" ? "text-red-600" : ""
               }`}
               onClick={() => setActiveLink("home")}
             >
@@ -34,8 +34,8 @@ export const Header = () => {
           <li>
             <a
               href="#expertise"
-              className={`hover:text-green-400 ${
-                activeLink === "expertise" ? "text-green-400" : ""
+              className={`hover:text-slate-300 ${
+                activeLink === "expertise" ? "text-red-600" : ""
               }`}
               onClick={() => setActiveLink("expertise")}
             >
@@ -46,8 +46,8 @@ export const Header = () => {
           <li>
             <a
               href="#work"
-              className={`hover:text-green-400 ${
-                activeLink === "work" ? "text-green-400" : ""
+              className={`hover:text-slate-300 ${
+                activeLink === "work" ? "text-red-600" : ""
               }`}
               onClick={() => setActiveLink("work")}
             >
@@ -58,8 +58,8 @@ export const Header = () => {
           <li>
             <a
               href="#experience"
-              className={`hover:text-green-400 ${
-                activeLink === "experience" ? "text-green-400" : ""
+              className={`hover:text-slate-300 ${
+                activeLink === "experience" ? "text-red-600" : ""
               }`}
               onClick={() => setActiveLink("experience")}
             >
@@ -70,8 +70,8 @@ export const Header = () => {
           <li>
             <a
               href="#contact"
-              className={`hover:text-green-400 ${
-                activeLink === "contact" ? "text-green-400" : ""
+              className={`hover:text-slate-300 ${
+                activeLink === "contact" ? "text-red-600" : ""
               }`}
               onClick={() => setActiveLink("contact")}
             >
@@ -97,7 +97,7 @@ export const Header = () => {
               <i className="fa-solid fa-house-user text-white"></i>
               <a
                 href="#"
-                className={`hover:text-green-400 ${
+                className={`hover:text-slate-300 ${
                   activeLink === "home" ? "text-green-400" : ""
                 }`}
                 onClick={() => {
@@ -112,7 +112,7 @@ export const Header = () => {
               <i className="fa-solid fa-code"></i>
               <a
                 href="#expertise"
-                className={`hover:text-green-400 ${
+                className={`hover:text-slate-300 ${
                   activeLink === "expertise" ? "text-green-400" : ""
                 }`}
                 onClick={() => {
@@ -128,7 +128,7 @@ export const Header = () => {
               <i className="fa-solid fa-list-check"></i>
               <a
                 href="#work"
-                className={`hover:text-green-400 ${
+                className={`hover:text-slate-300 ${
                   activeLink === "work" ? "text-green-400" : ""
                 }`}
                 onClick={() => {
@@ -144,7 +144,7 @@ export const Header = () => {
               <i className="fa-solid fa-briefcase"></i>
               <a
                 href="#experience"
-                className={`hover:text-green-400 ${
+                className={`hover:text-slate-300 ${
                   activeLink === "experience" ? "text-green-400" : ""
                 }`}
                 onClick={() => {
@@ -160,7 +160,7 @@ export const Header = () => {
               <i className="fa-solid fa-address-book"></i>
               <a
                 href="#contact"
-                className={`hover:text-green-400 ${
+                className={`hover:text-slate-300 ${
                   activeLink === "contact" ? "text-green-400" : ""
                 }`}
                 onClick={() => {
