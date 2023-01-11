@@ -2,7 +2,7 @@ export const Intro = () => {
   return (
     <div
       id="intro"
-      className="h-screen flex justify-center items-center text-white text-center mt-2 relative"
+      className="h-screen flex justify-center items-start md:items-center text-white text-center mt-2 relative"
     >
       <video
         autoPlay
@@ -20,7 +20,7 @@ export const Intro = () => {
         id="myVideo"
         className="h-full block md:hidden"
       >
-        <source src="/images/bg-video-2.mp4" type="video/mp4"></source>
+        <source src="/images/bg-video-3.mp4" type="video/mp4"></source>
       </video>
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-inherit flex flex-col justify-center items-center">
         <h1 className="font-Anton font-medium text-4xl md:text-8xl tracking-widest uppercase mt-4 py-6">
