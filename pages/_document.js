@@ -12,7 +12,10 @@ export default function Document() {
           name="keywords"
           content="Pranjal Shukla, Associate Software Engineer, Betaflux, web3Werx, Diebold Nixdorf, Portfolio, Front end developer, app developer"
         />
-        <meta property="og:image" content="/images/portfolio.png" />
+        <meta
+          property="og:image"
+          content="https://drive.google.com/file/d/1kccYTVOjG61u8PNdqmHRWcjzxzGpzirA/view?usp=sharing"
+        />
 
         <link rel="shortcut icon" href="/favicon.png" />
         <link

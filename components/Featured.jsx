@@ -8,7 +8,7 @@ export const Featured = ({ projects }) => {
   };
 
   return (
-    <div className="flex flex-col justify-start items-center my-8">
+    <div id="work" className="flex flex-col justify-start items-center my-8">
       <h1 className="font-Anton font-extrabold text-white text-3xl md:text-5xl tracking-widest uppercase my-8 text-center">
         Featured Projects
       </h1>
