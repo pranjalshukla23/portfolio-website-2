@@ -12,21 +12,32 @@ export default function Document() {
           name="keywords"
           content="Pranjal Shukla, Associate Software Engineer, Betaflux, web3Werx, Diebold Nixdorf, Portfolio, Front end developer, app developer"
         />
+
         <meta
+          prefix="og: http://ogp.me/ns#"
           property="og:title"
           content="Pranjal Shukla - Software Engineer"
         />
         <meta
-          name="image"
+          prefix="og: http://ogp.me/ns#"
           property="og:image"
-          content="%PUBLIC_URL%/portfolio.png"
+          content="https://drive.google.com/file/d/1RMnE5AM23W7nzkrOiAOQd-JxWGBDdFO9/view?usp=sharing"
         />
-        <meta name="author" content="Pranjal Shukla" />
         <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:url"
+          content="https://pranjalshukla.vercel.app/"
+        />
+        <meta
+          prefix="og: http://ogp.me/ns#"
           property="og:description"
           content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
         />
-        <meta property="og:url" content="https://pranjalshukla.vercel.app/" />
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          name="author"
+          content="Pranjal Shukla"
+        />
         <link rel="shortcut icon" href="/favicon.png" />
         <link
           rel="stylesheet"
