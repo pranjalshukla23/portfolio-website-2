@@ -7,8 +7,6 @@ E
 components/Layout.jsx,c\3\c31d14047ef2c95ff3ef6c744912d646cb5dfe88
 E
 components/Footer.jsx,5\4\54d87ef6d5c6fba1c13b538b9a89a6cf76efb2ec
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 B
 data/projects.json,c\6\c6b28cf019aa60230dca2a272d8d396a7745dc97
 F
