@@ -15,7 +15,7 @@ export default function Document() {
         <meta
           name="image"
           property="og:image"
-          content="https://drive.google.com/file/d/1kccYTVOjG61u8PNdqmHRWcjzxzGpzirA/view?usp=sharing"
+          content="https://iili.io/HYfRoWx.png"
         />
 
         <link rel="shortcut icon" href="/favicon.png" />
