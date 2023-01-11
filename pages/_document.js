@@ -5,15 +5,6 @@ export default function Document() {
     <Html className="scroll-smooth" lang="en" prefix="og: http://ogp.me/ns#">
       <Head>
         <meta
-          name="description"
-          content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
-        />
-        <meta
-          name="keywords"
-          content="Pranjal Shukla, Associate Software Engineer, Betaflux, web3Werx, Diebold Nixdorf, Portfolio, Front end developer, app developer"
-        />
-
-        <meta
           prefix="og: http://ogp.me/ns#"
           property="og:title"
           content="Pranjal Shukla - Software Engineer"
@@ -25,18 +16,32 @@ export default function Document() {
         />
         <meta
           prefix="og: http://ogp.me/ns#"
-          property="og:url"
-          content="https://pranjalshukla.vercel.app/"
-        />
-        <meta
-          prefix="og: http://ogp.me/ns#"
           property="og:description"
           content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
         />
         <meta
           prefix="og: http://ogp.me/ns#"
+          property="og:url"
+          content="https://pranjalshukla.vercel.app/"
+        />
+
+        <meta
+          prefix="og: http://ogp.me/ns#"
+          property="og:type"
+          content="website"
+        />
+        <meta
+          prefix="og: http://ogp.me/ns#"
           name="author"
           content="Pranjal Shukla"
+        />
+        <meta
+          name="description"
+          content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
+        />
+        <meta
+          name="keywords"
+          content="Pranjal Shukla, Associate Software Engineer, Betaflux, web3Werx, Diebold Nixdorf, Portfolio, Front end developer, app developer"
         />
         <link rel="shortcut icon" href="/favicon.png" />
         <link
