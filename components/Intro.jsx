@@ -11,7 +11,7 @@ export const Intro = () => {
         id="myVideo"
         className="h-full hidden md:block"
       >
-        <source src="/images/bg-video.mp4" type="video/mp4"></source>
+        <source src="/images/bg-video-2.mp4" type="video/mp4"></source>
       </video>
       <video
         autoPlay
