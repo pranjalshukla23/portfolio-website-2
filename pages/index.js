@@ -21,6 +21,7 @@ export default function Home({ projects }) {
     <div>
       <Head>
         <title>Pranjal Shukla - Software Engineer</title>
+        <meta property="og:image" content="/images/portfolio.png" />
       </Head>
 
       <Intro loading={loading} setLoading={setLoading} />

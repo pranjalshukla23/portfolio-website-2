@@ -4,8 +4,6 @@ export default function Document() {
   return (
     <Html className="scroll-smooth" lang="en" prefix="og: http://ogp.me/ns#">
       <Head>
-        {/*Primary Meta Tags*/}
-        <meta name="title" content="Pranjal Shukla -  Software Engineer" />
         <meta
           name="description"
           content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
@@ -14,33 +12,7 @@ export default function Document() {
           name="keywords"
           content="Pranjal Shukla, Associate Software Engineer, Betaflux, web3Werx, Diebold Nixdorf, Portfolio, Front end developer, app developer"
         />
-
-        {/*  Open Graph / Facebook*/}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
-        <meta
-          property="og:title"
-          content="Pranjal Shukla -  Software Engineer"
-        />
-        <meta
-          property="og:description"
-          content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
-        />
         <meta property="og:image" content="/images/portfolio.png" />
-        <meta name="author" content="Pranjal Shukla" />
-
-        {/*Twitter*/}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
-        <meta
-          property="twitter:title"
-          content="Pranjal Shukla -  Software Engineer"
-        />
-        <meta
-          property="twitter:description"
-          content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
-        />
-        <meta property="twitter:image" content="/images/portfolio.png" />
 
         <link rel="shortcut icon" href="/favicon.png" />
         <link
