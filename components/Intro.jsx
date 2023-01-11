@@ -2,7 +2,7 @@ export const Intro = () => {
   return (
     <div
       id="intro"
-      className="h-screen flex justify-center items-start md:items-center text-white text-center mt-2 relative"
+      className="h-screen flex justify-center items-center text-white text-center mt-2 relative"
     >
       <video
         autoPlay
