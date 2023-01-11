@@ -19,7 +19,7 @@ export default function Document() {
         <meta
           name="image"
           property="og:image"
-          content="/public/portfolio.png"
+          content="%PUBLIC_URL%/portfolio.png"
         />
         <meta name="author" content="Pranjal Shukla" />
         <meta
