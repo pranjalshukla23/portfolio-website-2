@@ -15,5 +15,13 @@ B
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 >
 pages/index.js,1\7\17f8c719689e4f3221289153187a6ca1fb24dd87
-H
-components/Expertise.jsx,b\f\bfb593fc70a12da3283f5443238802e99d033c3a
+B
+data/projects.json,c\6\c6b28cf019aa60230dca2a272d8d396a7745dc97
+D
+components/Intro.jsx,e\1\e187ed4477a48f4ef03cd9b79dcf49a6dcb7164a
+E
+components/Header.jsx,9\8\98f1fd90eab7570d1e999295ef107e643c2b7662
+F
+components/Contact.jsx,d\6\d628fd6f3d87a31baf8fa9307683ed446120befc
+B
+styles/globals.css,8\c\8c258232cbcd5d83991c524a9e86c8d3f984fc57

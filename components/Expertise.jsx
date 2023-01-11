@@ -7,7 +7,7 @@ export const Expertise = () => {
       <h1 className="font-Anton font-extrabold text-3xl md:text-5xl tracking-widest uppercase">
         My expertise
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 w-2/3 p-12 gap-6 border-2 border-slate-100">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-3/4 lg:w-2/3 p-12 gap-6 border-2 border-slate-100">
         <div className="border-0 md:border-r-2 md:border-white pr-2">
           <h1 className="font-RobotoCondensed font-bold text:md md:text-xl tracking-widest uppercase mb-4">
             <i className="fa-solid fa-desktop text-xl"></i>

@@ -14,14 +14,14 @@ export const Work = ({ projects }) => {
       <h1 className="font-Anton font-extrabold text-3xl md:text-5xl tracking-widest uppercase">
         Noteworthy Projects
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 w-full md:w-2/3 p-12 gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-full lg:w-2/3 p-12 gap-16">
         {projects &&
           projects.map((project) => (
             <Link
               href={project.github ? project.github : project.link}
               key={project.id}
             >
-              <div className="project flex flex-col justify-evenly items-center bg-slate-900 rounded-md border-2 border-gray-50  hover:scale-125 hover:cursor-pointer shadow-lg shadow-slate-600 p-4 h-80 md:h-64 ">
+              <div className="project flex flex-col justify-evenly items-center bg-slate-900 rounded-md border-2 border-gray-50  hover:scale-125 hover:cursor-pointer shadow-lg shadow-slate-600 p-4 h-80 lg:h-64 ">
                 <h1 className="font-RobotoCondensed font-bold text-md md:text-xl tracking-widest uppercase mb-4">
                   {project.title}
                   {project.github ? (
