@@ -26,10 +26,7 @@ export default function Document() {
           property="og:description"
           content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
         />
-        <meta
-          property="og:image"
-          content="https://drive.google.com/file/d/1RMnE5AM23W7nzkrOiAOQd-JxWGBDdFO9/view?usp=sharing"
-        />
+        <meta property="og:image" content="https://ibb.co/H2Y2DMV" />
 
         {/*Twitter*/}
         <meta property="twitter:card" content="summary_large_image" />
@@ -42,10 +39,7 @@ export default function Document() {
           property="twitter:description"
           content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
         />
-        <meta
-          property="twitter:image"
-          content="https://drive.google.com/file/d/1RMnE5AM23W7nzkrOiAOQd-JxWGBDdFO9/view?usp=sharing"
-        />
+        <meta property="twitter:image" content="https://ibb.co/H2Y2DMV" />
 
         <link rel="shortcut icon" href="/favicon.png" />
         <link
