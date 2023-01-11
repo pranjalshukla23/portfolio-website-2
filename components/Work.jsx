@@ -14,7 +14,7 @@ export const Work = ({ projects }) => {
       <h1 className="font-Anton font-extrabold text-3xl md:text-5xl tracking-widest uppercase">
         Noteworthy Projects
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 w-2/3 p-12 gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-full md:w-2/3 p-12 gap-16">
         {projects &&
           projects.map((project) => (
             <Link
