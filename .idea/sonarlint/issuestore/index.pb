@@ -17,9 +17,5 @@ E
 components/Header.jsx,9\8\98f1fd90eab7570d1e999295ef107e643c2b7662
 <
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
-=
-pages/_app.js,2\0\202812cedbed29fdf712361f0e7a919932f9e751
 >
 pages/index.js,1\7\17f8c719689e4f3221289153187a6ca1fb24dd87
-D
-components/Intro.jsx,e\1\e187ed4477a48f4ef03cd9b79dcf49a6dcb7164a

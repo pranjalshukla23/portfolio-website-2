@@ -26,7 +26,8 @@ export default function Document() {
           property="og:description"
           content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
         />
-        <meta property="og:image" content="https://ibb.co/H2Y2DMV" />
+        <meta property="og:image" content="/images/portfolio.png" />
+        <meta name="author" content="Pranjal Shukla" />
 
         {/*Twitter*/}
         <meta property="twitter:card" content="summary_large_image" />
@@ -39,7 +40,7 @@ export default function Document() {
           property="twitter:description"
           content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
         />
-        <meta property="twitter:image" content="https://ibb.co/H2Y2DMV" />
+        <meta property="twitter:image" content="/images/portfolio.png" />
 
         <link rel="shortcut icon" href="/favicon.png" />
         <link
