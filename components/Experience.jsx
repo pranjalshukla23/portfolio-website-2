@@ -79,7 +79,7 @@ export const Experience = () => {
               Full Stack Developer @ Web3Werx
             </div>
             <span className="font-medium text-white text-md w-1/2">
-              Sep &apos; 21 - Dec &apos; 22
+              Jan &apos; 21 - Dec &apos; 22
             </span>
 
             <svg
@@ -125,7 +125,7 @@ export const Experience = () => {
               Software Engineering intern @ Diebold Nixdorf
             </div>
             <span className="font-medium text-white text-md w-1/2">
-              May &apos; 21 - Aug &apos; 21
+              Jun &apos; 21 - Dec &apos; 21
             </span>
 
             <svg
