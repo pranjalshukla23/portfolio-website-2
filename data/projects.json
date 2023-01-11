@@ -3,83 +3,92 @@
   "title": "Multisender Aptos",
   "link": "https://multisender3.vercel.app/",
   "tools": "Next.js,Tailwind CSS,web3.js",
+  "imageUrl": "/images/aptos.png",
   "description": "A decentralized application to send NFT and coins to other addresses on solana blockchain"
-},{
-  "id": 2,
-  "title": "House Marketplace",
-  "link": "https://housemarketplace-one.vercel.app/",
-  "tools": "React.js,firebase",
-  "description": "A web app which helps customers to explore houses which are on sale. It also allows customer to list their houses for sale"
 },
   {
+    "id": 2,
+    "title": "SpaceX Clone",
+    "github": "https://github.com/pranjalshukla23/spacex",
+    "tools": "Next.js,Tailwinds CSS,Redux Toolkit",
+    "imageUrl": "/images/spacex.png",
+    "description": "A simple spaceX clone built with Next.js and Tailwind CSS that utilizes spaceX apis to show data in the UI"
+  },
+  {
     "id": 3,
+    "title": "NBA Clone",
+    "github": "https://github.com/pranjalshukla23/nba-app",
+    "tools": "Next.js,Tailwind CSS",
+    "imageUrl": "/images/nba.png",
+    "description": "A simple spaceX clone built with Next.js and Tailwind CSS to show stats related to an NBA team"
+  },
+
+
+  {
+    "id": 4,
     "title": "ProShop",
     "github": "https://github.com/pranjalshukla23/proshop.git",
+    "imageUrl": "/images/proshop.png",
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit, Paytm gateway",
     "description": "An E-commerce website to buy electronic devices"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Support Desk",
     "github": "https://github.com/pranjalshukla23/support-desk",
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit",
     "description": "A web app which helps customers to explore houses which are on sale. It also allows customer to list their houses for sale"
   },
   {
-    "id": 5,
-    "title": "SpaceX Clone",
-    "github": "https://github.com/pranjalshukla23/spacex",
-    "tools": "Next.js,Tailwinds CSS,Redux Toolkit",
-    "description": "A simple spaceX clone built with Next.js and Tailwind CSS that utilizes spaceX apis to show data in the UI"
-  },
-  {
     "id": 6,
+    "title": "House Marketplace",
+    "link": "https://housemarketplace-one.vercel.app/",
+    "tools": "React.js,firebase",
+    "imageUrl": "/images/marketplace.png",
+    "description": "A web app which helps customers to explore houses which are on sale. It also allows customer to list their houses for sale"
+  },
+
+  {
+    "id": 7,
     "title": "DevSpace",
     "link": "https://markdown-blog-nb8f.vercel.app/",
     "tools": "Next.js,Tailwinds CSS",
     "description": "A web app to show blogs related to software development and information technology"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Redux Cart",
     "github": "https://github.com/pranjalshukla23/spacex",
     "tools": "Next.js,Bootstrap,Redux Toolkit",
     "description": "An e-commerce app to demonstrate the functionality of redux toolkit"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "iNotebook",
     "github": "https://github.com/pranjalshukla23/inotebook",
     "tools": "React.js,Node.js,Express.js,MongoDB,Bootstrap",
     "description": "A single page web app to store user notes"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "News Monkey",
     "github": "https://github.com/pranjalshukla23/NewsMonkey",
     "tools": "React.js,Bootstrap",
     "description": "A single page web app to get the top news headlines from all around the world"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Food App",
     "github": "https://github.com/pranjalshukla23/food-app",
     "tools": "React.js",
     "description": "A web app to search for food dishes from various cuisines"
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Hunting Coder",
     "link": "https://hunting-coder-liard.vercel.app/",
     "tools": "Next.js",
     "description": "A web app to get all the blogs related to coding"
-  },
-  {
-    "id": 12,
-    "title": "NBA Clone",
-    "github": "https://github.com/pranjalshukla23/nba-app",
-    "tools": "Next.js,Tailwind CSS",
-    "description": "A simple spaceX clone built with Next.js and Tailwind CSS to show stats related to an NBA team"
   },
   {
     "id": 13,

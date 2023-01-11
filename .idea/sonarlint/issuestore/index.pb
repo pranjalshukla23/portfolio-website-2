@@ -7,8 +7,6 @@ E
 components/Layout.jsx,c\3\c31d14047ef2c95ff3ef6c744912d646cb5dfe88
 E
 components/Footer.jsx,5\4\54d87ef6d5c6fba1c13b538b9a89a6cf76efb2ec
-B
-data/projects.json,c\6\c6b28cf019aa60230dca2a272d8d396a7745dc97
 F
 components/Contact.jsx,d\6\d628fd6f3d87a31baf8fa9307683ed446120befc
 B
@@ -17,5 +15,3 @@ E
 components/Header.jsx,9\8\98f1fd90eab7570d1e999295ef107e643c2b7662
 <
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
->
-pages/index.js,1\7\17f8c719689e4f3221289153187a6ca1fb24dd87
