@@ -21,5 +21,3 @@ I
 pages/_app.js,2\0\202812cedbed29fdf712361f0e7a919932f9e751
 D
 components/Intro.jsx,e\1\e187ed4477a48f4ef03cd9b79dcf49a6dcb7164a
-B
-data/projects.json,c\6\c6b28cf019aa60230dca2a272d8d396a7745dc97

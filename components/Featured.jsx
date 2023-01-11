@@ -8,7 +8,10 @@ export const Featured = ({ projects }) => {
   };
 
   return (
-    <div id="work" className="flex flex-col justify-start items-center my-8">
+    <div
+      id="work"
+      className="flex flex-col justify-start items-center my-8 w-full"
+    >
       <h1 className="font-Anton font-extrabold text-white text-3xl md:text-5xl tracking-widest uppercase my-8 text-center">
         Featured Projects
       </h1>
@@ -17,7 +20,7 @@ export const Featured = ({ projects }) => {
         <div
           className={`flex ${
             project.id % 2 === 0 ? "flex-row" : "flex-row-reverse"
-          } w-full h-full md:w-3/4 md:h-1/2 my-4 gap-6`}
+          } justify-center items-center w-full h-full md:w-3/4  my-4 gap-6 `}
           key={project.id}
         >
           {/*  image section */}
@@ -29,7 +32,7 @@ export const Featured = ({ projects }) => {
             <Image
               src={project.imageUrl}
               alt="image"
-              width={690}
+              width={800}
               height={400}
               className="border-4 border-gray-900 rounded-md hover:scale-105"
             />
