@@ -16,11 +16,7 @@ export const Intro = () => {
     setLoading(false);
   };
   return (
-    <section
-      id="intro"
-      ref={myRef}
-      className="h-fit md:h-screen mt-50 text-center relative"
-    >
+    <section id="intro" ref={myRef} className=" mt-50 text-center relative">
       {loading && (
         <div className="bg-inherit absolute top-0 bottom-0 right-0 left-0 text-center">
           <ClipLoader
@@ -33,7 +29,7 @@ export const Intro = () => {
         </div>
       )}
       <div
-        className={` flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
+        className={` h-fit md:h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
           showIntro
             ? "opacity-100 duration-500 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"

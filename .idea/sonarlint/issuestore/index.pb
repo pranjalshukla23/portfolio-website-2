@@ -13,3 +13,19 @@ E
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 =
 pages/_app.js,2\0\202812cedbed29fdf712361f0e7a919932f9e751
+B
+data/projects.json,c\6\c6b28cf019aa60230dca2a272d8d396a7745dc97
+K
+components/FeaturedItem.jsx,e\4\e4ff21cfa29edfa9940583af7cb97dd2f02d340d
+G
+components/WorkItem.jsx,5\8\58ec0aedaedbb5917ded0daf40b29d21ae4fda48
+I
+components/Experience.jsx,0\c\0cce2be0848c0445139e182ff3ffa60bfc6b4769
+C
+components/Work.jsx,d\1\d1cd33bbc02d96e53b4fcf5ae7cacda0b44ab809
+F
+components/Contact.jsx,d\6\d628fd6f3d87a31baf8fa9307683ed446120befc
+E
+components/Footer.jsx,5\4\54d87ef6d5c6fba1c13b538b9a89a6cf76efb2ec
+B
+pages/_document.js,d\1\d1cd1638ed0f36c4f90ee49276b0ae25263a6f85
