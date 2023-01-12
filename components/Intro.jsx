@@ -46,12 +46,16 @@ export const Intro = () => {
       <div
         className={` h-fit md:h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
           showIntro
-            ? "opacity-100 duration-500 delay-700 ease-in"
+            ? "opacity-100 duration-500 delay-500 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
         {getVideo()}
-        <div className="absolute top-0 left-0 right-0 bottom-0 bg-inherit flex flex-col justify-center items-center">
+        <div
+          className={`absolute top-0 left-0 right-0 bottom-0 bg-inherit  flex-col justify-center items-center ${
+            !loading ? "flex" : "hidden"
+          }`}
+        >
           <h1 className="font-Anton font-medium text-4xl md:text-8xl tracking-widest uppercase mt-4 py-6">
             Pranjal Shukla
           </h1>
