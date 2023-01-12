@@ -37,7 +37,7 @@
     "title": "Support Desk",
     "github": "https://github.com/pranjalshukla23/support-desk",
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit",
-    "description": "A web app which helps customers to explore houses which are on sale. It also allows customer to list their houses for sale"
+    "description": "A web app which assists customers to raise support tickets related to IT support to a support desk"
   },
   {
     "id": 6,
