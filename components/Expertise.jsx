@@ -14,7 +14,7 @@ export const Expertise = () => {
       <div
         className={`flex flex-col justify-center items-center text-center text-white gap-4  ${
           showExpertise
-            ? "opacity-100 duration-200 delay-1000 ease-in"
+            ? "opacity-100 duration-500 delay-500 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"
         } `}
       >

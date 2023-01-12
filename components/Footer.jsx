@@ -14,7 +14,7 @@ export const Footer = () => {
       <div
         className={`flex flex-col justify-center items-center text-slate-400 text-2xl font-bold p-8 ${
           showFooter
-            ? "opacity-100 duration-200 delay-1000 ease-in"
+            ? "opacity-100 duration-500 delay-500 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"
         }`}
       >

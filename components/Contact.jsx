@@ -14,7 +14,7 @@ export const Contact = () => {
       <div
         className={`flex flex-col flex-wrap justify-center items-center text-white mt-24 text-center my-32 gap-8 ${
           showContact
-            ? "opacity-100 duration-200 delay-1000 ease-in"
+            ? "opacity-100 duration-500 delay-500 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >

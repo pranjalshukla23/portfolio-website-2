@@ -10,10 +10,25 @@ export const Intro = () => {
 
   useEffect(() => {
     setShowIntro(inViewport);
+    getVideo();
   }, [inViewport]);
 
   const onLoad = () => {
     setLoading(false);
+  };
+
+  const getVideo = () => {
+    return (
+      <video
+        autoPlay
+        playsInline
+        muted
+        className={`video h-full`}
+        loop
+        src="/images/bg-video-2.mp4"
+        onPlay={onLoad}
+      />
+    );
   };
   return (
     <section id="intro" ref={myRef} className=" mt-50 text-center relative">
@@ -31,19 +46,11 @@ export const Intro = () => {
       <div
         className={` h-fit md:h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
           showIntro
-            ? "opacity-100 duration-500 ease-in"
+            ? "opacity-100 duration-500 delay-700 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
-        <video
-          autoPlay
-          playsInline
-          muted
-          className="video h-full "
-          loop
-          src="/images/bg-video-2.mp4"
-          onPlay={onLoad}
-        />
+        {getVideo()}
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-inherit flex flex-col justify-center items-center">
           <h1 className="font-Anton font-medium text-4xl md:text-8xl tracking-widest uppercase mt-4 py-6">
             Pranjal Shukla
