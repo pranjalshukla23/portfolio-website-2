@@ -16,20 +16,26 @@ export const Intro = () => {
     setLoading(false);
   };
   return (
-    <section id="intro" ref={myRef} className="mt-50 text-center">
+    <section
+      id="intro"
+      ref={myRef}
+      className="h-fit md:h-screen mt-50 text-center relative"
+    >
       {loading && (
-        <ClipLoader
-          color={"#fff"}
-          loading={loading}
-          size={150}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-        />
+        <div className="bg-inherit absolute top-0 bottom-0 right-0 left-0 text-center">
+          <ClipLoader
+            color={"#fff"}
+            loading={loading}
+            size={150}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+          />
+        </div>
       )}
       <div
-        className={`h-fit md:h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
+        className={` flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
           showIntro
-            ? "opacity-100 duration-100 ease-in"
+            ? "opacity-100 duration-500 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
@@ -37,7 +43,7 @@ export const Intro = () => {
           autoPlay
           playsInline
           muted
-          className="video h-full"
+          className="video h-full "
           loop
           src="/images/bg-video-2.mp4"
           onPlay={onLoad}
