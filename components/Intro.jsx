@@ -13,9 +13,7 @@ export const Intro = () => {
   }, [inViewport]);
 
   const onLoad = () => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
+    setLoading(false);
   };
   return (
     <section id="intro" ref={myRef} className="mt-50 text-center">
@@ -31,7 +29,7 @@ export const Intro = () => {
       <div
         className={`h-fit md:h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
           showIntro
-            ? "opacity-100 duration-100 delay-1000 ease-in"
+            ? "opacity-100 duration-100 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
