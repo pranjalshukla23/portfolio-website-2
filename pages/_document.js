@@ -32,7 +32,7 @@ export default function Document() {
           referrerPolicy="no-referrer"
         />
       </Head>
-      <body>
+      <body className="scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-900 overflow-y-scroll">
         <Main />
         <NextScript />
       </body>
