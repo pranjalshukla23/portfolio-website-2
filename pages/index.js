@@ -23,26 +23,12 @@ export default function Home({ projects }) {
         <title>Pranjal Shukla - Software Engineer</title>
       </Head>
 
-      <Intro loading={loading} setLoading={setLoading} />
-      {loading ? (
-        <div className="text-center h-screen">
-          <ClipLoader
-            color={"#fff"}
-            loading={loading}
-            size={150}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          />
-        </div>
-      ) : (
-        <>
-          <Expertise />
-          <Featured projects={projects} />
-          <Work projects={projects} />
-          <Experience />
-          <Contact />
-        </>
-      )}
+      <Intro />
+      <Expertise />
+      <Featured projects={projects} />
+      <Work projects={projects} />
+      <Experience />
+      <Contact />
     </div>
   );
 }
