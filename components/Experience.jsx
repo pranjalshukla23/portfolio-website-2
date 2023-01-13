@@ -12,7 +12,7 @@ export const Experience = () => {
   return (
     <section id="experience" ref={myRef}>
       <div
-        className={`flex flex-col justify-center items-center text-center text-white gap-4 my-24 ${
+        className={`flex flex-col justify-center items-center text-center text-white gap-4 my-24 transition-opacity ${
           showExperience
             ? "opacity-100 duration-500 delay-500 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"

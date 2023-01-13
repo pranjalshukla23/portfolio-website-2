@@ -5,6 +5,7 @@ import { ClipLoader } from "react-spinners";
 export const Intro = () => {
   const [loading, setLoading] = useState(true);
   const [showIntro, setShowIntro] = useState(false);
+  const [blur, setBlur] = useState(true);
   const myRef = useRef();
   const { inViewport } = useInViewport(myRef);
 
@@ -17,6 +18,12 @@ export const Intro = () => {
     setLoading(false);
   };
 
+  useEffect(() => {
+    setTimeout(() => {
+      setBlur(false);
+    }, 1000);
+  }, []);
+
   const getVideo = () => {
     return (
       <>
@@ -24,9 +31,18 @@ export const Intro = () => {
           autoPlay
           playsInline
           muted
-          className={`video h-full md:block`}
+          className={`video h-full hidden md:block`}
           loop
           src="/images/bg-video-2.mp4"
+          onPlay={onLoad}
+        />
+        <video
+          autoPlay
+          playsInline
+          muted
+          className={`video h-full block md:hidden`}
+          loop
+          src="/images/sample-5.mp4"
           onPlay={onLoad}
         />
       </>
@@ -46,21 +62,21 @@ export const Intro = () => {
         </div>
       )}
       <div
-        className={` h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
+        className={` h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 transition-opacity ${
           showIntro
-            ? "opacity-100 duration-500 delay-200 md:duration-500" +
-              " md:delay-500" +
-              " ease-in"
-            : "opacity-0 opacity-100 duration-100 ease-in"
+            ? " opacity-100 duration-500 delay-200  ease-in"
+            : " opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
         {getVideo()}
         <div
-          className={`flex absolute top-0 left-0 right-0 bottom-0  flex-col justify-center items-center  md:bg-none ${
-            !loading ? "md:flex" : "md:hidden"
-          }`}
+          className={`hidden absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-1000 ease-in ${
+            !loading ? "md:flex" : ""
+          }   ${blur ? "blur-md" : "blur-none"}`}
         >
-          <h1 className="font-Anton font-medium text-4xl md:text-8xl tracking-widest uppercase  py-6">
+          <h1
+            className={`font-Anton font-medium text-6xl md:text-8xl tracking-widest uppercase  py-6`}
+          >
             Pranjal Shukla
           </h1>
           <h3 className="font-Montserrat font-bold text-xs md:text-xl tracking-widest uppercase">
