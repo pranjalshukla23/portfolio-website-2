@@ -61,7 +61,7 @@ export const Intro = () => {
       >
         {getVideo()}
         <div
-          className={`flex absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-500 ease-in bg-gradient-to-br from-gray-900 md:bg-none ${
+          className={`flex absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-500 ease-in bg-gradient-to-br from-black via-gray-900 to-black md:bg-none ${
             !loading ? "flex" : "md:hidden"
           }   ${blur ? "blur-md" : "blur-none"}`}
         >
