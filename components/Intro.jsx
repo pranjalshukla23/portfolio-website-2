@@ -24,7 +24,7 @@ export const Intro = () => {
           autoPlay
           playsInline
           muted
-          className={`video h-full hidden md:block`}
+          className={`video h-full md:block`}
           loop
           src="/images/bg-video-2.mp4"
           onPlay={onLoad}
@@ -56,10 +56,9 @@ export const Intro = () => {
       >
         {getVideo()}
         <div
-          className={`flex absolute top-0 left-0 right-0 bottom-0  flex-col justify-center items-center bg-gradient-to-br from-black
-           via-gray-900 to-black md:bg-none ${
-             !loading ? "md:flex" : "md:hidden"
-           }`}
+          className={`flex absolute top-0 left-0 right-0 bottom-0  flex-col justify-center items-center  md:bg-none ${
+            !loading ? "md:flex" : "md:hidden"
+          }`}
         >
           <h1 className="font-Anton font-medium text-4xl md:text-8xl tracking-widest uppercase  py-6">
             Pranjal Shukla
