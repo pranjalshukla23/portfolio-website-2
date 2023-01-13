@@ -19,21 +19,23 @@ export const Intro = () => {
 
   const getVideo = () => {
     return (
-      <video
-        autoPlay
-        playsInline
-        muted
-        className={`video h-full`}
-        loop
-        src="/images/bg-video-2.mp4"
-        onPlay={onLoad}
-      />
+      <>
+        <video
+          autoPlay
+          playsInline
+          muted
+          className={`video h-full hidden md:block`}
+          loop
+          src="/images/bg-video-2.mp4"
+          onPlay={onLoad}
+        />
+      </>
     );
   };
   return (
     <section id="intro" ref={myRef} className=" mt-50 text-center relative">
       {loading && (
-        <div className="bg-inherit absolute top-0 bottom-0 right-0 left-0 text-center">
+        <div className="hidden md:block bg-inherit absolute top-0 bottom-0 right-0 left-0 text-center">
           <ClipLoader
             color={"#fff"}
             loading={loading}
@@ -44,19 +46,20 @@ export const Intro = () => {
         </div>
       )}
       <div
-        className={` h-fit md:h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
+        className={` h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 ${
           showIntro
-            ? "opacity-100 duration-500 delay-500 ease-in"
+            ? "opacity-100 duration-500 delay-200 md:duration-500" +
+              " md:delay-500" +
+              " ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
         {getVideo()}
         <div
-          className={`absolute top-0 left-0 right-0 bottom-0 bg-inherit  flex-col justify-center items-center ${
-            !loading ? "flex" : "hidden"
-          }`}
+          className={`flex absolute top-0 left-0 right-0 bottom-0  flex-col justify-center items-center bg-gradient-to-br from-gray-600
+           via-black to-black md:bg-none ${!loading ? "md:flex" : "md:hidden"}`}
         >
-          <h1 className="font-Anton font-medium text-4xl md:text-8xl tracking-widest uppercase mt-4 py-6">
+          <h1 className="font-Anton font-medium text-4xl md:text-8xl tracking-widest uppercase  py-6">
             Pranjal Shukla
           </h1>
           <h3 className="font-Montserrat font-bold text-xs md:text-xl tracking-widest uppercase">
