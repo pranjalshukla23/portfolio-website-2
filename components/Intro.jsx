@@ -42,7 +42,7 @@ export const Intro = () => {
           muted
           className={`video h-full block md:hidden`}
           loop
-          src="/images/sample-5.mp4"
+          src="/images/mobile-video.mp4"
           onPlay={onLoad}
         />
       </>
