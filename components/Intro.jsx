@@ -36,15 +36,6 @@ export const Intro = () => {
           src="/images/bg-video-2.mp4"
           onPlay={onLoad}
         />
-        <video
-          autoPlay
-          playsInline
-          muted
-          className={`video h-full block md:hidden`}
-          loop
-          src="/images/mobile-video.mp4"
-          onPlay={onLoad}
-        />
       </>
     );
   };
@@ -70,8 +61,8 @@ export const Intro = () => {
       >
         {getVideo()}
         <div
-          className={`hidden absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-1000 ease-in ${
-            !loading ? "md:flex" : ""
+          className={`flex absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-1000 ease-in bg-gradient-to-br from-gray-900 md:bg-none ${
+            !loading ? "flex" : "hidden"
           }   ${blur ? "blur-md" : "blur-none"}`}
         >
           <h1
