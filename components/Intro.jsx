@@ -70,9 +70,9 @@ export const Intro = () => {
       >
         {getVideo()}
         <div
-          className={`hidden absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-500 ease-in bg-gradient-to-br from-black via-gray-900 to-black md:bg-none ${
+          className={`hidden absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-1000 ease-in bg-gradient-to-br from-black via-gray-900 to-black md:bg-none ${
             !loading ? "md:flex" : "md:hidden"
-          }   ${blur ? "blur-md" : "blur-none"}`}
+          }   ${blur ? "blur-lg" : "blur-none"}`}
         >
           <h1
             className={`font-Anton font-medium text-6xl text-white md:text-8xl tracking-widest uppercase  py-6 `}
