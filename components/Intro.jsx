@@ -55,14 +55,14 @@ export const Intro = () => {
       <div
         className={` h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 transition-opacity ${
           showIntro
-            ? " opacity-100 duration-500 delay-200  ease-in"
+            ? " opacity-100 duration-500 delay-500 ease-in"
             : " opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
         {getVideo()}
         <div
-          className={`flex absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-1000 ease-in bg-gradient-to-br from-gray-900 md:bg-none ${
-            !loading ? "flex" : "hidden"
+          className={`flex absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-500 ease-in bg-gradient-to-br from-gray-900 md:bg-none ${
+            !loading ? "flex" : "md:hidden"
           }   ${blur ? "blur-md" : "blur-none"}`}
         >
           <h1
