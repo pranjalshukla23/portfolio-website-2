@@ -70,7 +70,7 @@ export const Intro = () => {
           >
             Pranjal Shukla
           </h1>
-          <h3 className="font-Montserrat font-bold text-xs md:text-xl tracking-widest uppercase">
+          <h3 className="font-Montserrat  font-bold text-xs md:text-xl tracking-widest uppercase">
             Software engineer, Front end & App Developer.
           </h3>
         </div>
