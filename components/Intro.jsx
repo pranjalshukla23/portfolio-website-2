@@ -66,11 +66,11 @@ export const Intro = () => {
           }   ${blur ? "blur-lg" : "blur-none"}`}
         >
           <h1
-            className={`font-Anton font-medium text-4xl text-white md:text-8xl tracking-widest uppercase  py-6 `}
+            className={`font-Anton font-medium text-white  text-4xl md:text-7xl lg:text-8xl tracking-widest uppercase  py-6 `}
           >
             Pranjal Shukla
           </h1>
-          <h3 className="font-Montserrat  font-bold text-xs md:text-xl tracking-widest uppercase">
+          <h3 className="font-Montserrat  font-bold text-xs md:text-lg lg:text-xl tracking-widest uppercase">
             Software engineer, Front end & App Developer.
           </h3>
         </div>
