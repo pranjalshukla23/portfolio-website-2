@@ -1,6 +1,7 @@
 [{
   "id": 1,
   "title": "Multisender Aptos",
+  "type": "website",
   "link": "https://multisender3.vercel.app/",
   "tools": "Next.js,Tailwind CSS,web3.js",
   "imageUrl": "/images/aptos.png",
@@ -9,6 +10,7 @@
   {
     "id": 2,
     "title": "SpaceX Clone",
+    "type": "website",
     "github": "https://github.com/pranjalshukla23/spacex",
     "tools": "Next.js,Tailwinds CSS,Redux Toolkit",
     "imageUrl": "/images/spacex.png",
@@ -17,6 +19,7 @@
   {
     "id": 3,
     "title": "NBA Clone",
+    "type": "website",
     "github": "https://github.com/pranjalshukla23/nba-app",
     "tools": "Next.js,Tailwind CSS",
     "imageUrl": "/images/nba.png",
@@ -27,6 +30,7 @@
   {
     "id": 4,
     "title": "ProShop",
+    "type": "website",
     "github": "https://github.com/pranjalshukla23/proshop.git",
     "imageUrl": "/images/proshop.png",
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit, Paytm gateway",
@@ -35,6 +39,7 @@
   {
     "id": 5,
     "title": "Support Desk",
+    "type": "website",
     "github": "https://github.com/pranjalshukla23/support-desk",
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit",
     "description": "A web app which assists customers to raise support tickets related to IT support to a support desk"
@@ -42,6 +47,7 @@
   {
     "id": 6,
     "title": "House Marketplace",
+    "type": "website",
     "link": "https://housemarketplace-one.vercel.app/",
     "tools": "React.js,firebase",
     "imageUrl": "/images/marketplace.png",
@@ -51,6 +57,7 @@
   {
     "id": 7,
     "title": "DevSpace",
+    "type": "website",
     "link": "https://markdown-blog-nb8f.vercel.app/",
     "tools": "Next.js,Tailwinds CSS",
     "description": "A web app to show blogs related to software development and information technology"
@@ -58,6 +65,7 @@
   {
     "id": 8,
     "title": "Redux Cart",
+    "type": "website",
     "github": "https://github.com/pranjalshukla23/spacex",
     "tools": "Next.js,Bootstrap,Redux Toolkit",
     "description": "An e-commerce app to demonstrate the functionality of redux toolkit"
@@ -65,6 +73,7 @@
   {
     "id": 9,
     "title": "iNotebook",
+    "type": "website",
     "github": "https://github.com/pranjalshukla23/inotebook",
     "tools": "React.js,Node.js,Express.js,MongoDB,Bootstrap",
     "description": "A single page web app to store user notes"
@@ -72,6 +81,7 @@
   {
     "id": 10,
     "title": "News Monkey",
+    "type": "website",
     "github": "https://github.com/pranjalshukla23/NewsMonkey",
     "tools": "React.js,Bootstrap",
     "description": "A single page web app to get the top news headlines from all around the world"
@@ -79,6 +89,7 @@
   {
     "id": 11,
     "title": "Food App",
+    "type": "website",
     "github": "https://github.com/pranjalshukla23/food-app",
     "tools": "React.js",
     "description": "A web app to search for food dishes from various cuisines"
@@ -86,6 +97,7 @@
   {
     "id": 12,
     "title": "Hunting Coder",
+    "type": "website",
     "link": "https://hunting-coder-liard.vercel.app/",
     "tools": "Next.js",
     "description": "A web app to get all the blogs related to coding"
@@ -93,6 +105,7 @@
   {
     "id": 13,
     "title": "iCoder",
+    "type": "website",
     "link": "https://software-application-homepage.vercel.app/",
     "tools": "React.js,Material UI",
     "description": "A home page for a service based company built with React.js and Material UI library"
@@ -100,7 +113,32 @@
   {
     "id": 14,
     "title": "Company Dashboard",
+    "type": "website",
     "github": "https://github.com/pranjalshukla23/tailwind-services-page",
     "tools": "React.js,Tailwind CSS",
     "description": "A home page for a service based company built with React.js and Tailwind CSS"
+  },
+  {
+    "id": 15,
+    "title": "NFT Marketplace App",
+    "type": "mobile",
+    "github": "https://github.com/pranjalshukla23/NftMarketplaceApp",
+    "tools": "React Native",
+    "description": "A native mobile app to explore and buy NFTs"
+  },
+  {
+    "id": 16,
+    "title": "Food App",
+    "type": "mobile",
+    "github": "https://github.com/pranjalshukla23/foodApp",
+    "tools": "React Native",
+    "description": "A native mobile app to search for food"
+  },
+  {
+    "id": 17,
+    "title": "Goal Tracker",
+    "type": "mobile",
+    "github": "https://github.com/pranjalshukla23/ToDoApp",
+    "tools": "React Native",
+    "description": "A native mobile app to track user goals"
   }]

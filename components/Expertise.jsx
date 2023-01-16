@@ -22,18 +22,18 @@ export const Expertise = () => {
           My expertise
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 w-3/4 lg:w-2/3 p-12 gap-6 border-2 border-slate-100">
-          <div className="border-0 md:border-r-2 md:border-white pr-2">
-            <h1 className="font-RobotoCondensed font-bold text:md md:text-xl tracking-widest uppercase mb-4">
-              <i className="fa-solid fa-desktop text-xl"></i>
-              <span className="underline decoration-4 decoration-pink-500">
-                Software
-              </span>{" "}
-              development
-            </h1>
-            <p>
-              Experienced in both functional and OOP: JavaScript, TypeScript.
-            </p>
-          </div>
+          {/*<div className="border-0 md:border-r-2 md:border-white pr-2">*/}
+          {/*  <h1 className="font-RobotoCondensed font-bold text:md md:text-xl tracking-widest uppercase mb-4">*/}
+          {/*    <i className="fa-solid fa-desktop text-xl"></i>*/}
+          {/*    <span className="underline decoration-4 decoration-pink-500">*/}
+          {/*      Software*/}
+          {/*    </span>{" "}*/}
+          {/*    development*/}
+          {/*  </h1>*/}
+          {/*  <p>*/}
+          {/*    Experienced in both functional and OOP: JavaScript, TypeScript.*/}
+          {/*  </p>*/}
+          {/*</div>*/}
           <div className="border-0 md:border-r-2 md:border-white pr-2">
             <h1 className="font-RobotoCondensed font-bold text-xl tracking-widest uppercase mb-4">
               <i className="fa-brands fa-react text-2xl"></i>
@@ -49,7 +49,7 @@ export const Expertise = () => {
               NextJS frameworks.
             </p>
           </div>
-          <div>
+          <div className="border-0 md:border-r-2 md:border-white pr-2">
             <h1 className="font-RobotoCondensed font-bold text-xl tracking-widest uppercase mb-4">
               <i className="fa-brands fa-node-js text-2xl"></i>
               <span className="underline decoration-4 decoration-orange-500">
@@ -61,6 +61,19 @@ export const Expertise = () => {
             <p>
               Over 2 years of development experience in backend development with
               Node and ExpressJS.
+            </p>
+          </div>
+          <div>
+            <h1 className="font-RobotoCondensed font-bold text:md md:text-xl tracking-widest uppercase mb-4">
+              <i className="fa-solid fa-desktop text-xl"></i>
+              <span className="underline decoration-4 decoration-pink-500">
+                Mobile App dev
+              </span>{" "}
+              React Native
+            </h1>
+            <p>
+              Skilled in developing hybrid mobile apps and cross-platform
+              solutions using the React Native framework.
             </p>
           </div>
         </div>

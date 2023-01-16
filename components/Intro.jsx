@@ -31,7 +31,7 @@ export const Intro = () => {
           autoPlay
           playsInline
           muted
-          className={`video h-full brightness-50`}
+          className={`video h-full brightness-[0.65]`}
           loop
           src="/images/bg-video-sample-1.mp4"
           onPlay={onLoad}

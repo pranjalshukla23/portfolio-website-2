@@ -5,12 +5,25 @@ import { useEffect, useRef, useState } from "react";
 
 export const Work = ({ projects }) => {
   const [showProjects, setShowProjects] = useState(false);
+  const [displayProjects, setDisplayProjects] = useState([]);
   const myRef = useRef();
   const { inViewport } = useInViewport(myRef);
 
   useEffect(() => {
     setShowProjects(inViewport);
+    setDisplayProjects(projects.slice(4));
   }, [inViewport]);
+
+  const filterProjects = (type) => {
+    console.log("projects", projects);
+    const filteredProjects = projects.filter(
+      (project) => project.type === type
+    );
+
+    console.log("filtered projects: " + filteredProjects);
+
+    setDisplayProjects(filteredProjects);
+  };
 
   return (
     <section ref={myRef}>
@@ -24,13 +37,29 @@ export const Work = ({ projects }) => {
         <h1 className="font-Anton text-2xl  tracking-widest uppercase">
           Other Noteworthy Projects
         </h1>
+        <div className="text-white w-2/3 flex justify-end items-center text-gray-400 mt-4 px-0 md:px-12 ">
+          <p className="flex gap-4">
+            Filter by{" "}
+            <button
+              className="hover:text-white text-gray-300"
+              onClick={() => filterProjects("website")}
+            >
+              Web Apps
+            </button>{" "}
+            /{" "}
+            <button
+              className="hover:text-white text-gray-300"
+              onClick={() => filterProjects("mobile")}
+            >
+              Native Mobile Apps
+            </button>
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 w-full lg:w-2/3 p-12 gap-16">
-          {projects &&
-            projects
-              .slice(4)
-              .map((project) => (
-                <WorkItem project={project} key={project.id} />
-              ))}
+          {displayProjects &&
+            displayProjects.map((project) => (
+              <WorkItem project={project} key={project.id} />
+            ))}
         </div>
       </div>
     </section>
