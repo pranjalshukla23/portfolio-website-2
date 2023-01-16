@@ -10,6 +10,7 @@ module.exports = {
         RobotoCondensed: ["Roboto Condensed", "sans-serif"],
         Montserrat: ["Montserrat", "sans-serif"],
         Anton: ["Anton", "sans-serif"],
+        Manrope: ["Manrope", "sans-serif"],
       },
       backgroundImage: {
         "hero-pattern": "url('/images/bg-image.jpg')",

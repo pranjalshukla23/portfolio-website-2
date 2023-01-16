@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useInViewport } from "react-in-viewport";
 import { ClipLoader } from "react-spinners";
+import Image from "next/image";
 
 export const Intro = () => {
-  const [loading, setLoading] = useState(true);
   const [showIntro, setShowIntro] = useState(false);
   const [blur, setBlur] = useState(true);
   const myRef = useRef();
@@ -11,12 +11,7 @@ export const Intro = () => {
 
   useEffect(() => {
     setShowIntro(inViewport);
-    getVideo();
   }, [inViewport]);
-
-  const onLoad = () => {
-    setLoading(false);
-  };
 
   useEffect(() => {
     setTimeout(() => {
@@ -24,56 +19,29 @@ export const Intro = () => {
     }, 1000);
   }, []);
 
-  const getVideo = () => {
-    return (
-      <>
-        <video
-          autoPlay
-          playsInline
-          muted
-          className={`video h-full brightness-[0.65]`}
-          loop
-          src="/images/bg-video-sample-1.mp4"
-          onPlay={onLoad}
-        />
-      </>
-    );
-  };
   return (
-    <section id="intro" ref={myRef} className=" mt-50 text-center relative">
-      {loading && (
-        <div className="hidden md:block bg-inherit absolute top-0 bottom-0 right-0 left-0 text-center">
-          <ClipLoader
-            color={"#fff"}
-            loading={loading}
-            size={150}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          />
-        </div>
-      )}
+    <section
+      id="intro"
+      ref={myRef}
+      className=" mt-50 text-center relative flex justify-center items-center"
+    >
       <div
-        className={` h-screen flex justify-center items-center text-white text-center mt-4 relative mb-8 transition-opacity ${
+        className={` w-full h-screen flex flex-col-reverse md:flex-row justify-center items-center text-white  mt-4 relative mb-8 transition-opacity text-center px-24 gap-4 ${
           showIntro
             ? " opacity-100 duration-500 delay-500 ease-in"
             : " opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
-        {getVideo()}
-        <div
-          className={`flex absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-1000 ease-in  md:bg-none text-center ${
-            !loading ? "md:flex" : "md:hidden"
-          }   ${blur ? "blur-lg" : "blur-none"}`}
-        >
-          <h1
-            className={`font-Anton font-medium text-white  text-3xl md:text-7xl lg:text-8xl tracking-widest uppercase  py-6 `}
-          >
-            Pranjal Shukla
-          </h1>
-          <h3 className="font-Montserrat  font-bold text-[0.55rem] md:text-lg lg:text-xl tracking-widest uppercase">
-            Software engineer, Front end & App Developer.
-          </h3>
-        </div>
+        <h3 className="font-Manrope font-bold text-3xl lg:text-5xl">
+          I&apos;m <span className="text-teal-400">Pranjal.</span> I&apos;m a
+          Software engineer,Front end and App Developer.
+        </h3>
+        <Image
+          src={"/images/pic.jfif"}
+          className="rounded-full"
+          width={200}
+          height={200}
+        />
       </div>
     </section>
   );
