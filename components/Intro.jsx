@@ -61,16 +61,16 @@ export const Intro = () => {
       >
         {getVideo()}
         <div
-          className={`flex absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-1000 ease-in  md:bg-none ${
+          className={`flex absolute top-0 left-0 right-0 bottom-0 flex-col justify-center items-center transition-[blur] duration-1000 delay-1000 ease-in  md:bg-none text-center ${
             !loading ? "md:flex" : "md:hidden"
           }   ${blur ? "blur-lg" : "blur-none"}`}
         >
           <h1
-            className={`font-Anton font-medium text-white  text-4xl md:text-7xl lg:text-8xl tracking-widest uppercase  py-6 `}
+            className={`font-Anton font-medium text-white  text-3xl md:text-7xl lg:text-8xl tracking-widest uppercase  py-6 `}
           >
             Pranjal Shukla
           </h1>
-          <h3 className="font-Montserrat  font-bold text-xs md:text-lg lg:text-xl tracking-widest uppercase">
+          <h3 className="font-Montserrat  font-bold text-[0.55rem] md:text-lg lg:text-xl tracking-widest uppercase">
             Software engineer, Front end & App Developer.
           </h3>
         </div>
