@@ -32,10 +32,10 @@ export const Intro = () => {
             : " opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
-        <h3 className="font-Manrope font-bold text-3xl lg:text-5xl">
+        <p className="font-Manrope font-bold text-3xl lg:text-5xl leading-relaxed">
           I&apos;m <span className="text-teal-400">Pranjal.</span> I&apos;m a
-          Software engineer,Front end and App Developer.
-        </h3>
+          Software engineer,Front end and App Developer at Betaflux.
+        </p>
         <Image
           src={"/images/pic.jfif"}
           className="rounded-full"
