@@ -51,7 +51,7 @@ export const Work = ({ projects }) => {
               className="hover:text-white text-gray-300"
               onClick={() => filterProjects("mobile")}
             >
-              Native Mobile Apps
+              Mobile Apps
             </button>
           </p>
         </div>
