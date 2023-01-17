@@ -37,10 +37,10 @@ export const Intro = () => {
           Software engineer,Front end and App Developer at Betaflux.
         </p>
         <Image
-          src={"/images/pic.jfif"}
-          className="rounded-full"
+          src={"/images/profile-image.png"}
+          className="rounded-full border-none"
           width={200}
-          height={200}
+          height={400}
         />
       </div>
     </section>
