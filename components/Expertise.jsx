@@ -65,10 +65,11 @@ export const Expertise = () => {
           </div>
           <div>
             <h1 className="font-RobotoCondensed font-bold text:md md:text-xl tracking-widest uppercase mb-4">
-              <i className="fa-solid fa-desktop text-xl"></i>
+              <i className="fa-solid fa-mobile-screen-button"></i>
               <span className="underline decoration-4 decoration-pink-500">
-                Mobile App dev
+                Mobile dev
               </span>{" "}
+              <br />
               React Native
             </h1>
             <p>
