@@ -39,7 +39,7 @@ export const Intro = () => {
         <Image
           src={"/images/profile-image1.jpg"}
           className="rounded-full"
-          width={140}
+          width={150}
           height={100}
         />
       </div>
