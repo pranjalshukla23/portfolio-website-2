@@ -28,7 +28,7 @@ export const Experience = () => {
           >
             <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8">
               <div className="font-medium text-white text-start text-md w-1/2">
-                Associate Software Engineer @ Betaflux Consulting
+                Associate Software Engineer @ BetaFlux
               </div>
               <span className="font-medium text-white text-md w-1/2">
                 Jan &apos;23 - present
