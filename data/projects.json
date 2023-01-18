@@ -5,7 +5,7 @@
   "link": "https://multisender3.vercel.app/",
   "tools": "Next.js,Tailwind CSS,web3.js",
   "imageUrl": "/images/aptos.png",
-  "description": "A decentralized application to send NFT and coins to other addresses on solana blockchain"
+  "description": "A decentralized application to send NFT and coins to accounts on solana blockchain"
 },
   {
     "id": 2,
@@ -14,7 +14,7 @@
     "github": "https://github.com/pranjalshukla23/spacex",
     "tools": "Next.js,Tailwinds CSS,Redux Toolkit",
     "imageUrl": "/images/spacex.png",
-    "description": "A simple spaceX clone built with Next.js and Tailwind CSS that utilizes spaceX apis to show data in the UI"
+    "description": "A simple spaceX clone built with Next.js and Tailwind CSS that utilizes spaceX apis to provide data related to space shuttles"
   },
   {
     "id": 3,
@@ -34,7 +34,7 @@
     "github": "https://github.com/pranjalshukla23/proshop.git",
     "imageUrl": "/images/proshop.png",
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit, Paytm gateway",
-    "description": "An E-commerce website to buy electronic devices"
+    "description": "An E-commerce website to buy electronic gadgets"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "type": "website",
     "github": "https://github.com/pranjalshukla23/support-desk",
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit",
-    "description": "A web app which assists customers to raise support tickets related to IT support to a support desk"
+    "description": "A web app which assists customers to raise tickets related to IT assistance and support to a servicing team"
   },
   {
     "id": 6,
