@@ -12,13 +12,13 @@ export const Expertise = () => {
   return (
     <section id="expertise" ref={myRef}>
       <div
-        className={`flex flex-col justify-center items-center text-center text-white gap-4 transition-opacity ${
+        className={`flex flex-col justify-center items-center text-center text-white gap-4 transition-opacity h-full ${
           showExpertise
             ? "opacity-100 duration-500 delay-500 ease-in"
             : "opacity-0 opacity-100 duration-100 ease-in"
         } `}
       >
-        <h1 className="font-Anton font-extrabold text-3xl md:text-5xl tracking-widest uppercase mb-4">
+        <h1 className="font-Anton font-extrabold text-2xl md:text-4xl tracking-widest uppercase mb-4">
           My expertise
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 w-3/4 lg:w-2/3 p-12 gap-6 border-2 border-slate-100">

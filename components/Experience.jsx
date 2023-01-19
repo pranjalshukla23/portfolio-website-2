@@ -18,7 +18,7 @@ export const Experience = () => {
             : "opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
-        <h1 className="font-Anton font-extrabold text-3xl md:text-5xl text-white tracking-widest uppercase mb-8">
+        <h1 className="font-Anton font-extrabold text-2xl md:text-4xl text-white tracking-widest uppercase mb-8">
           Professional Experience
         </h1>
         <div className="space-y-4 w-full md:w-1/2">

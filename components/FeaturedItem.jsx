@@ -18,7 +18,7 @@ export const FeaturedItem = ({ project }) => {
       <Link
         href={project.github ? project.github : project.link}
         key={project.id}
-        className="w-4/5 md:w-full md:block"
+        className="w-4/5"
       >
         <Image
           src={project.imageUrl}

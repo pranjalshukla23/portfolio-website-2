@@ -40,13 +40,14 @@
     "id": 5,
     "title": "Support Desk",
     "type": "website",
+    "imageUrl": "/images/project-1.png",
     "github": "https://github.com/pranjalshukla23/support-desk",
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit",
     "description": "A web app which assists customers to raise tickets related to IT assistance and support to a servicing team"
   },
   {
     "id": 6,
-    "title": "House Marketplace",
+    "title": "Marketplace",
     "type": "website",
     "link": "https://housemarketplace-one.vercel.app/",
     "tools": "React.js,firebase",
@@ -60,13 +61,15 @@
     "type": "website",
     "link": "https://markdown-blog-nb8f.vercel.app/",
     "tools": "Next.js,Tailwinds CSS",
+    "imageUrl": "/images/project-2.png",
     "description": "A web app to show blogs related to software development and information technology"
   },
   {
     "id": 8,
     "title": "Redux Cart",
     "type": "website",
-    "github": "https://github.com/pranjalshukla23/spacex",
+    "github": "https://github.com/pranjalshukla23/redux-cart",
+    "imageUrl": "/images/project-3.png",
     "tools": "Next.js,Bootstrap,Redux Toolkit",
     "description": "An e-commerce app to demonstrate the functionality of redux toolkit"
   },
@@ -76,6 +79,7 @@
     "type": "website",
     "github": "https://github.com/pranjalshukla23/inotebook",
     "tools": "React.js,Node.js,Express.js,MongoDB,Bootstrap",
+    "imageUrl": "/images/project-4.png",
     "description": "A single page web app to store user notes"
   },
   {
@@ -83,6 +87,7 @@
     "title": "News Monkey",
     "type": "website",
     "github": "https://github.com/pranjalshukla23/NewsMonkey",
+    "imageUrl": "/images/project-5.png",
     "tools": "React.js,Bootstrap",
     "description": "A single page web app to get the top news headlines from all around the world"
   },
@@ -91,6 +96,7 @@
     "title": "Food App",
     "type": "website",
     "github": "https://github.com/pranjalshukla23/food-app",
+    "imageUrl": "/images/project-6.png",
     "tools": "React.js",
     "description": "A web app to search for food dishes from various cuisines"
   },
@@ -99,6 +105,7 @@
     "title": "Hunting Coder",
     "type": "website",
     "link": "https://hunting-coder-liard.vercel.app/",
+    "imageUrl": "/images/project-7.png",
     "tools": "Next.js",
     "description": "A web app to get all the blogs related to coding"
   },
@@ -107,22 +114,25 @@
     "title": "iCoder",
     "type": "website",
     "link": "https://software-application-homepage.vercel.app/",
+    "imageUrl": "/images/project-8.png",
     "tools": "React.js,Material UI",
     "description": "A home page for a service based company built with React.js and Material UI library"
   },
   {
     "id": 14,
-    "title": "Company Dashboard",
+    "title": "Dashboard",
     "type": "website",
     "github": "https://github.com/pranjalshukla23/tailwind-services-page",
+    "imageUrl": "/images/project-9.png",
     "tools": "React.js,Tailwind CSS",
     "description": "A home page for a service based company built with React.js and Tailwind CSS"
   },
   {
     "id": 15,
-    "title": "NFT Marketplace App",
+    "title": "NFT Marketplace",
     "type": "mobile",
     "github": "https://github.com/pranjalshukla23/NftMarketplaceApp",
+    "imageUrl": "/images/project-10.png",
     "tools": "React Native",
     "description": "A native mobile app to explore and buy NFTs"
   },
@@ -131,14 +141,7 @@
     "title": "Food App",
     "type": "mobile",
     "github": "https://github.com/pranjalshukla23/foodApp",
+    "imageUrl": "/images/project-11.png",
     "tools": "React Native",
     "description": "A native mobile app to search for food"
-  },
-  {
-    "id": 17,
-    "title": "Goal Tracker",
-    "type": "mobile",
-    "github": "https://github.com/pranjalshukla23/ToDoApp",
-    "tools": "React Native",
-    "description": "A native mobile app to track user goals"
   }]

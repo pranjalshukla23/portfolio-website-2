@@ -18,7 +18,7 @@ export const Contact = () => {
             : "opacity-0 opacity-100 duration-100 ease-in"
         }}`}
       >
-        <h1 className="font-Anton font-extrabold text-3xl md:text-5xl tracking-widest uppercase">
+        <h1 className="font-Anton font-extrabold text-2xl md:text-4xl tracking-widest uppercase">
           Get in touch
         </h1>
         <p className="text-slate-400 font-bold text-center">
