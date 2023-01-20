@@ -18,7 +18,7 @@ export default function Home({ projects }) {
   const [loading, setLoading] = useState(true);
 
   return (
-    <div>
+    <>
       <Head>
         <title>Pranjal Shukla - Software Engineer</title>
       </Head>
@@ -29,7 +29,7 @@ export default function Home({ projects }) {
       <Work projects={projects} />
       <Experience />
       <Contact />
-    </div>
+    </>
   );
 }
 

@@ -23,10 +23,10 @@ export const Intro = () => {
     <section
       id="intro"
       ref={myRef}
-      className=" mt-50 text-center relative flex justify-center items-center"
+      className="mt-50 text-center relative flex justify-center items-center"
     >
       <div
-        className={` w-full h-screen flex flex-col-reverse md:flex-row justify-center items-center text-white  mt-4 relative mb-8 transition-opacity text-center px-24 gap-4 ${
+        className={` h-screen flex flex-col-reverse md:flex-row justify-center items-center text-white  mt-4 relative mb-8 transition-opacity text-center px-24 gap-4 ${
           showIntro
             ? " opacity-100 duration-500 delay-500 ease-in"
             : " opacity-0 opacity-100 duration-100 ease-in"

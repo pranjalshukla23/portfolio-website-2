@@ -10,7 +10,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="flex flex-col md:flex-row justify-start items-center gap-x-48 bg-black p-4 sticky top-0 z-40 relative">
+      <header className="flex flex-col md:flex-row justify-start items-center gap-x-8 bg-black p-4 sticky top-0 z-40 relative">
         <h1 className="font-RobotoCondensed text-4xl text-blue-300">
           <button onClick={handleNav}>
             <i className="fa-solid fa-bars text-blue-500 mr-4 md:hidden"></i>
@@ -19,7 +19,7 @@ export const Header = () => {
         </h1>
 
         {/*desktop*/}
-        <ul className="hidden md:flex md:flex-row justify-between items-center gap-2 text-white text-lg font-Montserrat font-bold w-1/2">
+        <ul className="hidden md:flex md:flex-row justify-evenly items-center gap-4 text-white text-lg font-Montserrat font-bold w-2/3">
           <li>
             <a
               href="#"
@@ -79,6 +79,12 @@ export const Header = () => {
             </a>
           </li>
         </ul>
+
+        <button className="hidden md:block bg-gray-800 border-2 border-teal-600 text-white text-lg px-4 py-2 rounded-md">
+          <a href="/resume.pdf" target="_blank" title="Pranjal resume">
+            Resume
+          </a>
+        </button>
 
         {/*mobile*/}
         <div
@@ -172,6 +178,11 @@ export const Header = () => {
               </a>
             </li>
           </ul>
+          <button className="bg-gray-800 border-2 border-teal-600 text-white text-lg px-4 py-2 rounded-md">
+            <a href="/resume.pdf" target="_blank" title="Pranjal resume">
+              Resume
+            </a>
+          </button>
         </div>
       </header>
     </>
