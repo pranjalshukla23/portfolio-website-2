@@ -81,7 +81,7 @@ export const Header = () => {
         </ul>
 
         <button className="hidden md:block bg-gray-800 border-2 border-teal-600 text-white text-lg px-4 py-2 rounded-md">
-          <a href="/resume.pdf" target="_blank" title="Pranjal resume">
+          <a href="/resume-pranjal.pdf" target="_blank" title="Pranjal resume">
             Resume
           </a>
         </button>
@@ -179,7 +179,11 @@ export const Header = () => {
             </li>
           </ul>
           <button className="bg-gray-800 border-2 border-teal-600 text-white text-lg px-4 py-2 rounded-md">
-            <a href="/resume.pdf" target="_blank" title="Pranjal resume">
+            <a
+              href="/resume-pranjal.pdf"
+              target="_blank"
+              title="Pranjal resume"
+            >
               Resume
             </a>
           </button>
