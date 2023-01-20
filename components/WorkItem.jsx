@@ -23,7 +23,7 @@ export const WorkItem = ({ project }) => {
             <i className="fa-solid fa-arrow-up-right-from-square"></i>
           )}
         </h1>
-        <div className="absolute bg-zinc-800 top-0 bottom-16 left-0 right-0 z-30 flex flex-col justify-center items-center flex-wrap gap-2 transition-transform -translate-y-[15rem] group-hover:translate-y-0 opacity-90">
+        <div className="absolute bg-zinc-800 top-0 bottom-16 left-0 right-0 z-30 flex flex-col justify-center items-center flex-wrap gap-2 transition-transform -translate-y-[15rem] group-hover:translate-y-0 opacity-90 p-2">
           <p>{project.description}</p>
           <div className="flex justify-center items-center flex-wrap">
             {getStack(project.tools).map((tool) => (

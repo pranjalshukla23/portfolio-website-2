@@ -43,7 +43,7 @@
     "imageUrl": "/images/project-1.png",
     "github": "https://github.com/pranjalshukla23/support-desk",
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit",
-    "description": "A web app which assists customers to raise tickets related to IT assistance and support to a servicing team"
+    "description": "A web app to raise tickets to help desk for IT support"
   },
   {
     "id": 6,
