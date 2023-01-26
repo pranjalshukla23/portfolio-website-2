@@ -52,37 +52,26 @@ export const Experience = () => {
 
             <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41] mx-2">
               <li>
-                Development of 10+ web applications by using responsive UI
-                elements via React concepts for smooth performance
+                Retrieve client data, and perform data cleaning & quality
+                checking before upgrading the database in an optimized manner.
               </li>
+              <li>Gather business requirements to architect applications.</li>
               <li>
-                Constructed 7+ user interface codes of web applications with
-                frameworks ReactJS, NextJS, and JavaScript based on approved
-                design
+                Collaborate with the product & design team to analyze better the
+                end-user requirements.
               </li>
-              <li>
-                Utilized libraries and frameworks like Material UI, Bootstrap
-                Tailwind CSS for efficiently designing web applications
-              </li>
-              <li>
-                Employed state management library Redux Toolkit for constructing
-                redux applications
-              </li>
+              <li>Inspect server code for speed optimization.</li>
               <li>
                 Integration of user-facing elements developed by front-end
                 developers with server-side logic
               </li>
               <li>
-                Composed backend for websites and constructed RESTful APIs with
-                NodeJS and ExpressJS
+                Develop & implement highly responsive user interface components
+                using React fundamental.
               </li>
               <li>
-                Utilized relational databases and NoSQL databases to streamline
-                data for user applications
-              </li>
-              <li>
-                Managed the deployment of web applications on platforms like
-                Heroku, Vercel
+                Writing application interface code using JavaScript following
+                React.js workflows.
               </li>
             </ul>
           </details>
@@ -114,21 +103,41 @@ export const Experience = () => {
 
             <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41] mx-2">
               <li>
-                Coding smart contracts for Ethereum blockchain using solidity
-                programming language
+                Ensured the technology implemented promoted efficiency, speed, &
+                smooth functionality
               </li>
               <li>
-                Developing decentralized applications on Ethereum and
-                Hyperledger Fabric blockchain
+                Participated in collaborative team efforts to resolve, find and
+                implement efficiencies.
               </li>
               <li>
-                Constructing test cases using mocha and chai framework for unit
-                testing of decentralized applications
+                Developed 10+ web applications by using responsive UI elements
+                via React concepts for smooth performance
               </li>
               <li>
-                Designing and developing web-based applications using front-end
-                frameworks React JS and Ether.js library for interacting with
-                the Ethereum blockchain
+                Constructed 7+ user interface codes of web applications with
+                frameworks React.js, Next.js, and JavaScript based on approved
+                design
+              </li>
+              <li>
+                Utilized libraries and frameworks like Material UI, Bootstrap,
+                and Tailwind CSS for efficiently designing web applications.
+              </li>
+              <li>
+                Employed state management library Redux Toolkit for constructing
+                redux applications.
+              </li>
+              <li>
+                Integrated user-facing elements developed by front-end
+                developers with server-side logic.
+              </li>
+              <li>
+                Utilized relational databases and NoSQL databases to streamline
+                data for user applications.
+              </li>
+              <li>
+                Composed backend for websites and constructed RESTful APIs with
+                Node.js and Express.js.
               </li>
             </ul>
           </details>
@@ -160,14 +169,19 @@ export const Experience = () => {
 
             <ul className="list-disc list-outside flex flex-col items-start text-start p-8 mt-4 text-xl text-white bg-[#241d41] mx-2">
               <li>
-                Development of a 360-degree customer recommendation engine using
-                cypher query language and graph database system Neo4j
+                Developed a 360-degree customer recommendation engine using
+                cypher query language and graph database system Neo4j.
               </li>
               <li>
                 Facilitated the research and development of business-oriented
                 data science solutions on graph database systems such as Neo4j,
-                Arango DB
+                and Arango DB.
               </li>
+              <li>
+                Collaborated with senior leaders, approached problems & found
+                solutions.
+              </li>
+              <li>Documented & tested new software applications.</li>
             </ul>
           </details>
         </div>
