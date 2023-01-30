@@ -26,7 +26,7 @@ export const Experience = () => {
             className="group [&_summary::-webkit-details-marker]:hidden"
             open
           >
-            <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8">
+            <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8 mx-2">
               <div className="font-medium text-white text-start text-md w-1/2">
                 Associate Software Engineer @ BetaFlux
               </div>
@@ -77,7 +77,7 @@ export const Experience = () => {
           </details>
 
           <details className="group [&_summary::-webkit-details-marker]:hidden">
-            <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8">
+            <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8 mx-2">
               <div className="font-medium text-white text-start text-md w-1/2">
                 Full Stack Developer @ Web3Werx
               </div>
@@ -143,7 +143,7 @@ export const Experience = () => {
           </details>
 
           <details className="group [&_summary::-webkit-details-marker]:hidden">
-            <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8">
+            <summary className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-violet-700 pl-8 mx-2">
               <div className="font-medium text-white text-start text-md w-1/2">
                 Software Engineering intern @ Diebold Nixdorf
               </div>
