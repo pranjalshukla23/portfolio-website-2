@@ -4,10 +4,22 @@ export default function Document() {
   return (
     <Html className="scroll-smooth" lang="en" prefix="og: http://ogp.me/ns#">
       <Head>
+        <meta name="title" content="Pranjal Shukla - Software Engineer" />
         <meta
           name="description"
           content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://pranjalshukla.vercel.app/" />
+        <meta
+          property="og:title"
+          content="Pranjal Shukla - Software Engineer"
+        />
+        <meta
+          name="description"
+          content="Checkout the portfolio website of Pranjal Shukla who is an Associate Software Engineer in Betaflux consulting"
+        />
+        <meta property="og:image" content="https://iili.io/HYfLYyx.jpg" />
         <meta
           name="keywords"
           content="Pranjal Shukla, Associate Software Engineer, Betaflux, web3Werx, Diebold Nixdorf, Portfolio, Front end developer, app developer"
@@ -15,13 +27,8 @@ export default function Document() {
         {/*<meta*/}
         {/*  name="image"*/}
         {/*  property="og:image"*/}
-        {/*  content="https://iili.io/HYfRoWx.png"*/}
+        {/*  content="https://iili.io/HYfLYyx.jpg"*/}
         {/*/>*/}
-        <meta
-          name="image"
-          property="og:image"
-          content="https://iili.io/HYfLYyx.jpg"
-        />
 
         <link rel="shortcut icon" href="/favicon.png" />
         <link
