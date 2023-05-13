@@ -1,12 +1,13 @@
-[{
-  "id": 1,
-  "title": "Multisender Aptos",
-  "type": "website",
-  "link": "https://multisender3.vercel.app/",
-  "tools": "Next.js,Tailwind CSS,web3.js",
-  "imageUrl": "/images/aptos.png",
-  "description": "A decentralized application to send NFT and coins to accounts on solana blockchain"
-},
+[
+  {
+    "id": 1,
+    "title": "Multisender Aptos",
+    "type": "website",
+    "link": "https://multisender3.vercel.app/",
+    "tools": "Next.js,Tailwind CSS,web3.js",
+    "imageUrl": "/images/aptos.png",
+    "description": "A decentralized application to send NFT and coins to accounts on solana blockchain"
+  },
   {
     "id": 2,
     "title": "SpaceX Clone",
@@ -26,7 +27,6 @@
     "description": "A simple spaceX clone built with Next.js and Tailwind CSS to show stats related to an NBA team"
   },
 
-
   {
     "id": 4,
     "title": "ProShop",
@@ -45,18 +45,9 @@
     "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit",
     "description": "A web app to raise tickets to help desk for IT support"
   },
-  {
-    "id": 6,
-    "title": "Marketplace",
-    "type": "website",
-    "link": "https://housemarketplace-one.vercel.app/",
-    "tools": "React.js,firebase",
-    "imageUrl": "/images/marketplace.png",
-    "description": "A web app which helps customers to explore houses which are on sale. It also allows customer to list their houses for sale"
-  },
 
   {
-    "id": 7,
+    "id": 6,
     "title": "DevSpace",
     "type": "website",
     "link": "https://markdown-blog-nb8f.vercel.app/",
@@ -65,7 +56,7 @@
     "description": "A web app to show blogs related to software development and information technology"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Redux Cart",
     "type": "website",
     "github": "https://github.com/pranjalshukla23/redux-cart",
@@ -74,7 +65,7 @@
     "description": "An e-commerce app to demonstrate the functionality of redux toolkit"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "iNotebook",
     "type": "website",
     "github": "https://github.com/pranjalshukla23/inotebook",
@@ -83,7 +74,7 @@
     "description": "A single page web app to store user notes"
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "News Monkey",
     "type": "website",
     "github": "https://github.com/pranjalshukla23/NewsMonkey",
@@ -92,7 +83,7 @@
     "description": "A single page web app to get the top news headlines from all around the world"
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Food App",
     "type": "website",
     "github": "https://github.com/pranjalshukla23/food-app",
@@ -101,7 +92,7 @@
     "description": "A web app to search for food dishes from various cuisines"
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "Hunting Coder",
     "type": "website",
     "link": "https://hunting-coder-liard.vercel.app/",
@@ -110,7 +101,7 @@
     "description": "A web app to get all the blogs related to coding"
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "iCoder",
     "type": "website",
     "link": "https://software-application-homepage.vercel.app/",
@@ -119,7 +110,7 @@
     "description": "A home page for a service based company built with React.js and Material UI library"
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Dashboard",
     "type": "website",
     "github": "https://github.com/pranjalshukla23/tailwind-services-page",
@@ -128,7 +119,7 @@
     "description": "A home page for a service based company built with React.js and Tailwind CSS"
   },
   {
-    "id": 15,
+    "id": 14,
     "title": "NFT Marketplace",
     "type": "mobile",
     "github": "https://github.com/pranjalshukla23/NftMarketplaceApp",
@@ -137,8 +128,8 @@
     "description": "A native mobile app to explore and buy NFTs"
   },
   {
-    "id": 16,
-    "title": "Food App",
+    "id": 15,
+    "title": "Food Finder App",
     "type": "mobile",
     "github": "https://github.com/pranjalshukla23/foodApp",
     "imageUrl": "/images/project-11.png",
@@ -146,11 +137,12 @@
     "description": "A native mobile app to search for food in nearby restaurants"
   },
   {
-    "id": 17,
-    "title": "Review App",
+    "id": 16,
+    "title": "Product Review App",
     "type": "mobile",
     "github": "https://github.com/pranjalshukla23/reviewApp",
     "imageUrl": "/images/project-12.png",
     "tools": "React Native",
     "description": "A native mobile app where users can add their reviews"
-  }]
+  }
+]
