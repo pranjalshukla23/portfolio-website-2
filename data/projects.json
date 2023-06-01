@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "title": "Multisender Aptos",
+    "title": "OGZ Website",
     "type": "website",
-    "link": "https://multisender3.vercel.app/",
-    "tools": "Next.js,Tailwind CSS,web3.js",
-    "imageUrl": "/images/aptos.png",
-    "description": "A decentralized application to send NFT and coins to accounts on solana blockchain"
+    "link": "https://ogz-website.vercel.app",
+    "tools": "Next.js,Tailwinds CSS, Ether.js, web3.js",
+    "imageUrl": "/images/project-13.png",
+    "description": "A DApp for swapping OGZ Token"
   },
   {
     "id": 2,
     "title": "SpaceX Clone",
     "type": "website",
-    "github": "https://github.com/pranjalshukla23/spacex",
+    "link": "https://spacex-alpha.vercel.app",
     "tools": "Next.js,Tailwinds CSS,Redux Toolkit",
     "imageUrl": "/images/spacex.png",
-    "description": "A simple spaceX clone built with Next.js and Tailwind CSS that utilizes spaceX apis to provide data related to space shuttles"
+    "description": "A simple spaceX clone built with Next.js and Tailwind CSS"
   },
   {
     "id": 3,
     "title": "NBA Clone",
     "type": "website",
-    "github": "https://github.com/pranjalshukla23/nba-app",
+    "link": "https://nba-app-tau.vercel.app",
     "tools": "Next.js,Tailwind CSS",
     "imageUrl": "/images/nba.png",
     "description": "A simple spaceX clone built with Next.js and Tailwind CSS to show stats related to an NBA team"
@@ -29,25 +29,6 @@
 
   {
     "id": 4,
-    "title": "ProShop",
-    "type": "website",
-    "github": "https://github.com/pranjalshukla23/proshop.git",
-    "imageUrl": "/images/proshop.png",
-    "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit, Paytm gateway",
-    "description": "An E-commerce website to buy electronic gadgets"
-  },
-  {
-    "id": 5,
-    "title": "Support Desk",
-    "type": "website",
-    "imageUrl": "/images/project-1.png",
-    "github": "https://github.com/pranjalshukla23/support-desk",
-    "tools": "React.js,Node.js,Express.js,MongoDB,Redux Toolkit",
-    "description": "A web app to raise tickets to help desk for IT support"
-  },
-
-  {
-    "id": 6,
     "title": "DevSpace",
     "type": "website",
     "link": "https://markdown-blog-nb8f.vercel.app/",
@@ -56,70 +37,16 @@
     "description": "A web app to show blogs related to software development and information technology"
   },
   {
-    "id": 7,
-    "title": "Redux Cart",
+    "id": 6,
+    "title": "Avatar Marketplace",
     "type": "website",
-    "github": "https://github.com/pranjalshukla23/redux-cart",
-    "imageUrl": "/images/project-3.png",
-    "tools": "Next.js,Bootstrap,Redux Toolkit",
-    "description": "An e-commerce app to demonstrate the functionality of redux toolkit"
-  },
-  {
-    "id": 8,
-    "title": "iNotebook",
-    "type": "website",
-    "github": "https://github.com/pranjalshukla23/inotebook",
-    "tools": "React.js,Node.js,Express.js,MongoDB,Bootstrap",
-    "imageUrl": "/images/project-4.png",
-    "description": "A single page web app to store user notes"
-  },
-  {
-    "id": 9,
-    "title": "News Monkey",
-    "type": "website",
-    "github": "https://github.com/pranjalshukla23/NewsMonkey",
-    "imageUrl": "/images/project-5.png",
-    "tools": "React.js,Bootstrap",
-    "description": "A single page web app to get the top news headlines from all around the world"
-  },
-  {
-    "id": 10,
-    "title": "Food App",
-    "type": "website",
-    "github": "https://github.com/pranjalshukla23/food-app",
-    "imageUrl": "/images/project-6.png",
-    "tools": "React.js",
-    "description": "A web app to search for food dishes from various cuisines"
-  },
-  {
-    "id": 11,
-    "title": "Hunting Coder",
-    "type": "website",
-    "link": "https://hunting-coder-liard.vercel.app/",
-    "imageUrl": "/images/project-7.png",
-    "tools": "Next.js",
-    "description": "A web app to get all the blogs related to coding"
-  },
-  {
-    "id": 12,
-    "title": "iCoder",
-    "type": "website",
-    "link": "https://software-application-homepage.vercel.app/",
-    "imageUrl": "/images/project-8.png",
-    "tools": "React.js,Material UI",
-    "description": "A home page for a service based company built with React.js and Material UI library"
-  },
-  {
-    "id": 13,
-    "title": "Dashboard",
-    "type": "website",
-    "github": "https://github.com/pranjalshukla23/tailwind-services-page",
-    "imageUrl": "/images/project-9.png",
+    "link": "https://avatar-marketplace.vercel.app",
+    "imageUrl": "/images/project-12.png",
     "tools": "React.js,Tailwind CSS",
-    "description": "A home page for a service based company built with React.js and Tailwind CSS"
+    "description": "A Marketplace for buying avatars"
   },
   {
-    "id": 14,
+    "id": 7,
     "title": "NFT Marketplace",
     "type": "mobile",
     "github": "https://github.com/pranjalshukla23/NftMarketplaceApp",
@@ -127,22 +54,14 @@
     "tools": "React Native",
     "description": "A native mobile app to explore and buy NFTs"
   },
+
   {
-    "id": 15,
+    "id": 8,
     "title": "Food Finder App",
     "type": "mobile",
     "github": "https://github.com/pranjalshukla23/foodApp",
     "imageUrl": "/images/project-11.png",
     "tools": "React Native",
     "description": "A native mobile app to search for food in nearby restaurants"
-  },
-  {
-    "id": 16,
-    "title": "Product Review App",
-    "type": "mobile",
-    "github": "https://github.com/pranjalshukla23/reviewApp",
-    "imageUrl": "/images/project-12.png",
-    "tools": "React Native",
-    "description": "A native mobile app where users can add their reviews"
   }
 ]
