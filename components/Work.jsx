@@ -26,7 +26,7 @@ export const Work = ({ projects }) => {
   };
 
   return (
-    <section ref={myRef}>
+    <section id='projects' ref={myRef}>
       <div
         className={`flex flex-col flex-wrap justify-center items-center text-white mt-24 text-center transition-opacity ${
           showProjects
@@ -35,7 +35,7 @@ export const Work = ({ projects }) => {
         }`}
       >
         <h1 className='font-Anton text-2xl md:text-4xl tracking-widest uppercase'>
-          Other Noteworthy Projects
+          Noteworthy Projects
         </h1>
         <div className='text-white w-2/3 flex justify-end items-center text-gray-400 mt-4 px-0 md:px-12 '>
           <p className='flex gap-4'>

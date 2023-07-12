@@ -13,6 +13,7 @@ import {
   RotateLoader,
 } from "react-spinners";
 import { Featured } from "../components/Featured";
+import { Blogs } from "../components/Blogs";
 
 export default function Home({ projects }) {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ export default function Home({ projects }) {
       <Expertise />
       {/* <Featured projects={projects} /> */}
       <Work projects={projects} />
+      <Blogs />
       <Experience />
       <Contact />
     </>

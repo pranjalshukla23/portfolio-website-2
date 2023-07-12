@@ -1,37 +1,29 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export const WorkItem = ({ project }) => {
-  const getStack = (msg) => {
-    const splitArr = msg.split(",");
-    return splitArr;
+export const BlogItem = ({ post, profile }) => {
+  const toText = (node) => {
+    let tag = document.createElement("div");
+    tag.innerHTML = node;
+    node = tag.innerText;
+    return node;
   };
   return (
-    <Link
-      href={project.github ? project.github : project.link}
-      key={project.id}
-    >
+    <Link href={post.link}>
       <div className='group flex flex-col justify-evenly items-center bg-slate-900 rounded-md border-2 border-gray-50 hover:scale-100 hover:cursor-pointer shadow-lg shadow-slate-600 p-2 h-64 gap-4 z-10 overflow-hidden'>
         <div className='relative w-full h-4/5 '>
-          <Image src={project.imageUrl} fill={true} alt='project' />
+          <Image src={post.thumbnail} fill={true} alt='thumbnail' />
         </div>
         <h1 className='font-RobotoCondensed font-bold text-md tracking-widest uppercase mb-2'>
-          {project.title}
-          {project.github ? (
+          {post.title}
+          {/* {project.github ? (
             <i className='fa-brands fa-github'></i>
           ) : (
             <i className='fa-solid fa-arrow-up-right-from-square'></i>
-          )}
+          )} */}
         </h1>
         <div className='absolute bg-zinc-800 top-0 bottom-16 left-0 right-0 z-30 flex flex-col justify-center items-center flex-wrap gap-2 transition-transform -translate-y-[15rem] group-hover:translate-y-0 opacity-90 p-2'>
-          <p>{project.description}</p>
-          <div className='flex justify-center items-center flex-wrap'>
-            {getStack(project.tools).map((tool) => (
-              <span key={tool} className='bg-blue-500 p-2 m-2'>
-                {tool}
-              </span>
-            ))}
-          </div>
+          <p>{`${toText(post.description.substring(0, 120))}...`}</p>
         </div>
       </div>
     </Link>
