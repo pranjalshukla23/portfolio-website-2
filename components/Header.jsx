@@ -159,6 +159,22 @@ export const Header = () => {
               </a>
             </li>
             <li className='flex justify-between items-center gap-2'>
+              <i className='fa-solid fa-list-check'></i>
+              <a
+                href='#blogs'
+                className={`hover:text-slate-300 ${
+                  activeLink === "blogs" ? "text-green-400" : ""
+                }`}
+                onClick={() => {
+                  setActiveLink("blogs");
+                  handleNav();
+                }}
+              >
+                {" "}
+                Blogs{" "}
+              </a>
+            </li>
+            <li className='flex justify-between items-center gap-2'>
               <i className='fa-solid fa-briefcase'></i>
               <a
                 href='#experience'
