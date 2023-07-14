@@ -14,17 +14,18 @@ export const BlogItem = ({ post, profile }) => {
         <div className='relative w-full h-4/5 '>
           <Image src={post.thumbnail} fill={true} alt='thumbnail' />
         </div>
-        <h1 className='font-RobotoCondensed font-bold text-md tracking-widest uppercase mb-2'>
+        <h1 className='font-RobotoCondensed font-bold text-md tracking-widest uppercase mb-2 '>
           {post.title}
+          <i className='fa-solid fa-arrow-up-right-from-square px-2'></i>
           {/* {project.github ? (
             <i className='fa-brands fa-github'></i>
           ) : (
             <i className='fa-solid fa-arrow-up-right-from-square'></i>
           )} */}
         </h1>
-        <div className='absolute bg-zinc-800 top-0 bottom-16 left-0 right-0 z-30 flex flex-col justify-center items-center flex-wrap gap-2 transition-transform -translate-y-[15rem] group-hover:translate-y-0 opacity-90 p-2'>
-          <p>{`${toText(post.description.substring(0, 120))}...`}</p>
-        </div>
+        {/* <div className='absolute bg-zinc-800 top-0 bottom-16 left-0 right-0 z-30 flex flex-col justify-center items-center flex-wrap gap-2 transition-transform -translate-y-[15rem] group-hover:translate-y-0 opacity-90 p-2'>
+          <p>{`${toText(post.description.substring(0, 50))}...`}</p>
+        </div> */}
       </div>
     </Link>
   );
