@@ -10,11 +10,16 @@ export const BlogItem = ({ post, profile }) => {
   };
   return (
     <Link href={post.link}>
-      <div className='group flex flex-col justify-evenly items-center bg-slate-900 rounded-md border-2 border-gray-50 hover:scale-100 hover:cursor-pointer shadow-lg shadow-slate-600 p-2 h-64 gap-4 z-10 overflow-hidden'>
-        <div className='relative w-full h-4/5 '>
-          <Image src={post.thumbnail} fill={true} alt='thumbnail' />
+      <div className='group flex flex-col justify-evenly items-center bg-slate-900 rounded-md border-2 border-gray-50 hover:scale-100 hover:cursor-pointer shadow-lg shadow-slate-600 p-2 pt-4 h-72 gap-4 z-10 overflow-hidden'>
+        <div className='relative w-11/12 h-3/4'>
+          <Image
+            src={post.thumbnail}
+            fill={true}
+            alt='thumbnail'
+            style={{ objectFit: "fill" }}
+          />
         </div>
-        <h1 className='font-RobotoCondensed font-bold text-md tracking-widest uppercase mb-2 '>
+        <h1 className='font-RobotoCondensed font-bold text-md tracking-widest uppercase'>
           {post.title}
           <i className='fa-solid fa-arrow-up-right-from-square px-2'></i>
           {/* {project.github ? (
