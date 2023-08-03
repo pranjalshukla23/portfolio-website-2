@@ -55,7 +55,7 @@ export const Header = () => {
               Projects{" "}
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href='#blogs'
               className={`hover:text-slate-300 ${
@@ -66,7 +66,7 @@ export const Header = () => {
               {" "}
               Blogs{" "}
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href='#experience'
@@ -158,7 +158,7 @@ export const Header = () => {
                 Projects{" "}
               </a>
             </li>
-            <li className='flex justify-between items-center gap-2'>
+            {/* <li className='flex justify-between items-center gap-2'>
               <i className='fa-solid fa-list-check'></i>
               <a
                 href='#blogs'
@@ -173,7 +173,7 @@ export const Header = () => {
                 {" "}
                 Blogs{" "}
               </a>
-            </li>
+            </li> */}
             <li className='flex justify-between items-center gap-2'>
               <i className='fa-solid fa-briefcase'></i>
               <a
